@@ -197,6 +197,7 @@ body .splash-page .modal-content .e-commerce .inquiry strong
 
 /*Pricing*/
 #myModal .close,#myModal1 .close,#myModal2 .close{margin-top:0 !important}
+body #myModal .modal-header h4,body #myModal1 .modal-header h4,body #myModal2 .modal-header h4{color:#fff}
 #cookieChoiceInfo span{color:#333 !important;}
 #cookieChoiceDismiss {
     color: #fff;
