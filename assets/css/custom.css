@@ -944,6 +944,11 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
         max-width: 100% !important;
     }
 }
+@media (min-width: 768px){
+    #general-title-p {
+        font-size:36px !important
+    }
+}
 @media only screen and (max-width: 768px) {
     .general.custom .main-container {
         padding: 20px 0px 0px;
