@@ -253,6 +253,7 @@ body #myModal .modal-header h4,body #myModal1 .modal-header h4,body #myModal2 .m
         background-image: none !important;
     }
     #cookieChoiceInfo span{display:block;margin-bottom:5px}
+    body .cover-title{font-size:18px !imporatant;}
 }
 
 
@@ -972,7 +973,7 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     ul li,
     ul li a,
     ul li strong {
-        font-size: 12.5px !important;
+        font-size: 14px !important;
     }
     .general p {
         color: #7f8c8d;
@@ -983,9 +984,9 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
         font-size: 18px;
     }
     h1,
-    h2,
-    h3,
-    h4 {
+    body h2,
+    body h3,
+    body h4 {
         font-size: 18px !important;
     }
     .general .subtitle .title {
