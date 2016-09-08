@@ -37,11 +37,12 @@ module.exports =
       maxcount: 5
       settings:
         title: "Webfactories RSS"
-        feed_url: "http://webfactories.biz/feed.xml"
+        feed_url: "https://webfactories.biz/feed.xml"
+        site_url: "https://webfactories.biz"
         description: "This is new description"
     ),
     roots_webriq_sitemap (
-      url: "https://webfactories1.netlify.com",
+      url: "https://webfactories.biz",
       folder: "public",
       directory: ["!admin", "!includes"],
       file: "**/*.html"
