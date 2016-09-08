@@ -69,35 +69,10 @@ section#contact-us.layout-footer
   script(type="text/javascript", src="../js/jquery.expander.min.js")
   script(type="text/javascript", src="../js/cookies.js")
   script(type="text/javascript", src="../js/scrolld.js")
-  script(type='text/javascript').
-    $(document).ready(function(){
-    $("[id*='Btn']").stop(true).on('click',function(e) {
-    e.preventDefault();
-    $(this).scrolld();
-    });
-    });
-  script(type='text/javascript').
-    $(document).ready(function(){
-    $('.boxes p').expander({
-      slicePoint: 230,
-      expandText: '[more]',
-      userCollapseText: '[less]'
-    })
-    $("<div class='overlay'></div>").appendTo("#navbar");
-    $(".overlay").on('click', function(){
-    $(".navbar-header button").addClass("collapsed");
-    $("#navbar").removeClass("in");
-    });
-    });
-  script.
-    // Install Cookies
-    document.addEventListener('DOMContentLoaded', function(event) {
-    cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
-    'Got it', 'learn more', '/cookies');
-    });
   script(src='https://cdn.slaask.com/chat.js')
-  script.
-    _slaask.init('a2185cf7997e55eb9484fc90fe78066a');
+  script(type="text/javascript", src="../js/custom.js")
+
+
   script(type="text/javascript")
       != records.site.sitedata[0].analytics
 
