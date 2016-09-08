@@ -983,6 +983,10 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     .general .main-container h1.title {
         font-size: 18px;
     }
+    body .cover-title {
+	font-size: 18px!important;
+	font-weight: 700;
+    }
     h1,
     body h2,
     body h3,
