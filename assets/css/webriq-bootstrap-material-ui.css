@@ -142,7 +142,7 @@ body{padding-left:0px !important;}
 .main-menu .social-media ul li a{padding:3px 8px;color:#555 !Important;background:#191919}
 .main-menu .social-media ul li a:hover{color:#fff !Important;background:#191919}
 
-.header-cover{background: url(http://5c4cf848f6454dc02ec8-c49fe7e7355d384845270f4a7a0a7aa1.r53.cf2.rackcdn.com/img/67a5cc37663e95df3bdc22cc58f94b8ca33df974/main-slider-img.jpg) top center;background-size:cover;}
+.header-cover{background: url(../img/main-slider-img.jpg) top center;background-size:cover;}
 .cover-sub-text{margin-top:30px !important;}
 
 .form-div{background:#f6f6f6;padding:15px 30px 30px 30px;}

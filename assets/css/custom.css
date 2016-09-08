@@ -17,7 +17,7 @@
 .text-body{padding: 15px 0;}
 .btn-learn {margin: 5px 0 15px 0;}
 .web-services{padding: 110px 0 !important; background: url(../img/webservices-static-bg.jpg) top right;background-size: cover;}
-.web-services-commerce{ color: #fff;padding: 110px 0;background: #2a3139 url('http://webtools2go.com/uploads/_gridguyz/pages/img/e-commerce-platform-section.jpg') left top;background-size: cover;}
+.web-services-commerce{ color: #fff;padding: 110px 0;background: #2a3139 url('../img/e-commerce-platform-section.jpg') left top;background-size: cover;}
 .list-{color: #fff !important;padding: 0;font-size: 18px;list-style: none;line-height: 26px !important;}
 .icon-static li{float: left;width: 50%;margin-bottom: 25px;}
 .icon-static li p{width: 150px;border: 1px solid #fff;height: 150px;margin: auto;text-align: center;border-radius: 50%;}
@@ -96,7 +96,7 @@ body .splash-page .modal-content
 {
     border: none;
     margin: 0px !important;
-    background: url('//webfactories.biz//uploads/site_phpwebfactories/pages/images/e-commerce-platform/e-commerce-splash-page.jpg');
+    background: url('../img/e-commerce-splash-page.jpg');
     border-radius: 0px;
 }
 body .splash-page .modal-header
