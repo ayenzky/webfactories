@@ -237,6 +237,23 @@ body #myModal .modal-header h4,body #myModal1 .modal-header h4,body #myModal2 .m
   .load-more-wrapper a{display:block;margin-bottom:15px;margin-left: 0 !important;}
 }
 
+@media screen and (max-width:470px)
+{
+
+	.btn-sign-modal,.btn-sign-modal:hover
+	{
+		background-image: none !important;
+	}
+	body .subtitle .title{
+		font-size:30px !important
+	}
+	.splash-page .modal-footer ul li a {
+        padding: 10px !Important;
+        text-align: left;
+        background-image: none !important;
+    }
+    #cookieChoiceInfo span{display:block;margin-bottom:5px}
+}
 
 
 /*NEIL CUSTOM CSS*/
