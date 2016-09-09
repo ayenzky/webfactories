@@ -237,6 +237,24 @@ body #myModal .modal-header h4,body #myModal1 .modal-header h4,body #myModal2 .m
   .load-more-wrapper a{display:block;margin-bottom:15px;margin-left: 0 !important;}
 }
 
+@media screen and (max-width:470px)
+{
+
+	.btn-sign-modal,.btn-sign-modal:hover
+	{
+		background-image: none !important;
+	}
+	body .subtitle .title{
+		font-size:30px !important
+	}
+	.splash-page .modal-footer ul li a {
+        padding: 10px !Important;
+        text-align: left;
+        background-image: none !important;
+    }
+    #cookieChoiceInfo span{display:block;margin-bottom:5px}
+    body .cover-title{font-size:18px !imporatant;}
+}
 
 
 /*NEIL CUSTOM CSS*/
@@ -926,6 +944,11 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
         max-width: 100% !important;
     }
 }
+@media (min-width: 768px){
+    #general-title-p {
+        font-size:36px !important
+    }
+}
 @media only screen and (max-width: 768px) {
     .general.custom .main-container {
         padding: 20px 0px 0px;
@@ -955,7 +978,7 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     ul li,
     ul li a,
     ul li strong {
-        font-size: 12.5px !important;
+        font-size: 14px !important;
     }
     .general p {
         color: #7f8c8d;
@@ -965,10 +988,14 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     .general .main-container h1.title {
         font-size: 18px;
     }
+    body .cover-title {
+	font-size: 18px!important;
+	font-weight: 700;
+    }
     h1,
-    h2,
-    h3,
-    h4 {
+    body h2,
+    body h3,
+    body h4 {
         font-size: 18px !important;
     }
     .general .subtitle .title {
