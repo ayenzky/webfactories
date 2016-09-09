@@ -9,7 +9,6 @@ excerpt      = require 'html-excerpt'
 moment       = require 'moment'
 cleanUrls    = require 'clean-urls'
 roots_webriq_sitemap = require 'webriq-roots-sitemap-v2'
-roots_rss_generator = require 'webriq-roots-rss-generator'
 
 monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
 
@@ -31,16 +30,6 @@ module.exports =
     collections(folder: 'page', layout: 'post'),
     js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.styl'),
-    roots_rss_generator(
-      folder: "posts"
-      output: "./views/feed.xml"
-      maxcount: 5
-      settings:
-        title: "Webfactories RSS"
-        feed_url: "https://webfactories.biz/feed.xml"
-        site_url: "https://webfactories.biz"
-        description: "This is new description"
-    ),
     roots_webriq_sitemap (
       url: "https://webfactories.biz",
       folder: "public",
