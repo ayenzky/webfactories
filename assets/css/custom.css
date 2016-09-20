@@ -85,8 +85,9 @@ a.top{padding: 1em 2.2em 1.4em 2.2em;background: url(../img/top.png) no-repeat t
 a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-duration: 0.5s;-o-transition-duration: 0.5s;-moz-transition-duration: 0.5s;-webkit-transition-duration: 0.5s;}
 .webfactories_presentation ul li a{padding: 8px 5px 8px 5px;display: block;border-radius: 5px;}
 .webfactories_presentation ul>li .slideshare_btn{margin-top: 20px;background-color: #057ab6;color:#fff;}
-.webfactories_presentation ul>li .swipe_btn{background-color: #f6910a;}
-.webfactories_presentation ul>li .swipe_btn img {width: 65px;}
+.webfactories_presentation ul>li .slides_btn{background-color: #444444;color: #fff;}
+.webfactories_presentation .slides_btn:hover{color: #e5637c !important;}
+.webfactories_presentation ul>li .slides_btn img {width: 20px;margin-bottom: 3px;margin-right: 5px;}
 .webfactories_presentation ul>li .fa {margin-right: 5px;}
 #copyright{background: #00b4ff;padding: 30px 0 15px 0;}
 #copyright p,#copyright a,.layout-footer p,.layout-footer p a{color:#fff !important;}
