@@ -122,6 +122,9 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
 body .parallax-mirror {left:0px !important;}
 body .parallax-mirror.canvas-slid{left:0px !important;}
 
+.blogs .blog-left {opacity:1 !important;top:0 !important;}
+.blogs .blog-left .article-banner{ height:auto;max-height:100%;width:auto}
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {from {top: 0px;}to {top: 20px;}}
 @keyframes mymove {from {top: 0px;}to {top: 20px;}}
@@ -1039,6 +1042,15 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     .layout-footer .office .active .eq-ui-collapsible-body-inner {padding: 15px 4px 0px;}
     .layout-footer .office ul {padding: 0px 8px !important;}
     .layout-footer .partner-list {padding: 5px 15px !important;}
+    .blogs .blog-left .article-banner{
+        height:100% !important;
+        max-height:100%;
+        width:auto
+    }
+        .article-banner img, .entry-banner img {
+        width: 100%;
+        height: 100% !important;
+    }
 }
 @media (min-width: 768px){
     #general-title-p {
