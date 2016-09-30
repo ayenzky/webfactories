@@ -21,6 +21,9 @@ html
     link(rel='stylesheet', href='../css/webriq-bootstrap-material-ui.css')
     link(rel='stylesheet', href='../css/custom.css')
     link(rel='stylesheet', href='../css/master.css')
+    //- link(rel='stylesheet', href='../css/demo-web.css')
+    //- link(rel='stylesheet', href='../css/normalize-web.css')
+    link(rel='stylesheet', href='../css/preload-main.css')
     script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js")
     <!-- Custom CSS -->
 
@@ -29,7 +32,10 @@ html
     header
       include includes/menu
 
-    section
+    div.loader
+      include includes/loader
+
+    section#head-bg
       include includes/header
 
     div.main-container

@@ -142,7 +142,7 @@ body{padding-left:0px !important;}
 .main-menu .social-media ul li a{padding:3px 8px;color:#555 !Important;background:#191919}
 .main-menu .social-media ul li a:hover{color:#fff !Important;background:#191919}
 
-.header-cover{background: url(../img/main-slider-img.jpg) top center;background-size:cover;}
+/* .header-cover{background: url(../img/slide-parallax-webfac2.jpg) top center;background-size:cover;} */
 .cover-sub-text{margin-top:30px !important;}
 
 .form-div{background:#f6f6f6;padding:15px 30px 30px 30px;}
@@ -164,7 +164,7 @@ body{padding-left:0px !important;}
     .navbar-default .navbar-toggle .icon-bar {background-color: #fff !important;}
     .navbar-toggle .icon-bar{height:4px !important;width:40px !important;}
     .navbar-toggle .icon-bar+.icon-bar {margin-top: 7px !important;}
-    .header-cover{padding:250px 0 260px 0;}
+    .header-cover{padding:250px 0 100px 0;}
     .cover-title{font-size:60px !important;font-weight:bold;}
     .cover-sub-text{font-size:40px;}
     body .static-website .text-body{min-height: 240px !important;}
