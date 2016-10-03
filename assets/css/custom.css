@@ -16,16 +16,41 @@
 .subtitle .title{color: #333;margin: 10px 0 0 0;font-size: 48px !important;font-weight: 300;}
 .text-body{padding: 15px 0;}
 .btn-learn {margin: 5px 0 15px 0;}
-.web-services{padding: 110px 0 !important;/* background: url(../img/webservices-static-bg.jpg) top right; */background-size: cover;}
+.web-services{padding: 110px 0 !important;background: #6b6b6b;}
+.web-services .title-, .web-services .list-{color:#fff !important;}
 .web-services-commerce{color: #fff;padding: 110px 0;/* background: #2a3139 url('../img/e-commerce-platform-section.jpg') left top; */background-size: cover;}
+#our-approach .title-{color:#fff;}
+#our-approach p {color:#fff;}
 .list-{color: #fff !important;padding: 0;font-size: 18px;list-style: none;line-height: 26px !important;}
 .icon-static li{float: left;width: 50%;margin-bottom: 25px;}
 .icon-static li p{width: 150px;border: 1px solid #fff;height: 150px;margin: auto;text-align: center;border-radius: 50%;}
 .icon-static li p em{top: 35px !important;color: #fff;position: relative;font-size: 16px;font-style: normal !important;font-weight: 400;}
 .portfolio,.blogs{padding:60px 0;}
-.portfolio .span3{border: 1px solid #eeeeee;margin: 1em 0.5em;display: inline-block;padding: 6px;}
-.portfolio div.span3 img {width: auto !important;height: auto !important;max-width: 100%;}
-.blogs{background:#f5f5f5}
+.portfolio .row.mt-40 {margin-top:60px !important}
+.portfolio .span3 a .img-hover{opacity: 1;position:absolute;display:block;width:100%;height:100%;z-index:111;top:0;left:0;right:0;padding:76px 0px;background:rgba(3,3,3,.7);}
+.portfolio .span3 a .img-hover img{opacity:0;}
+.portfolio .span3 a .img-hover span{opacity:0;}
+.portfolio .span3 a .img-hover:hover {background:rgba(3,3,3,.5);}
+.portfolio .span3 a .img-hover:hover img{opacity:1;}
+.portfolio .span3 a .img-hover:hover span{opacity:1;}
+.portfolio .col-md-4 {position:relative !important;overflow:hidden;}
+.portfolio .span3.proj2 a .img-hover{padding:56px 0px;}
+.portfolio .span3.proj3 a .img-hover{padding:86px 0px;}
+.portfolio .span3.proj5 a .img-hover {padding:90px 0px;}
+.portfolio .span3.proj7 a .img-hover {padding:86px 0px;}
+.portfolio .span3.proj8 a .img-hover {padding:86px 0px;}
+.portfolio .span3.proj11 a .img-hover {padding:86px 0px;}
+.portfolio .span3.proj10 a .img-hover {padding:100px 0px;}
+.portfolio .span3.proj10 a .img-hover span{font-size:20px;color:#fff;font-weight:400;border:solid 1px;padding:10px}
+.portfolio .span3.proj8 a .img-hover img{width:50% !important;}
+.portfolio .span3.proj11 a .img-hover img{width:40% !important;}
+.portfolio .span3.proj7 a .img-hover img{width:45% !important;}
+.portfolio .span3 a:hover .img-hover{opacity:1;}
+.portfolio .span3 img{-webkit-transition: all 1s ease;-moz-transition: all 1s ease;-ms-transition: all 1s ease;-o-transition: all 1s ease;transition: all 1s ease;}
+.portfolio .span3:hover .thumb-proj{-webkit-transform: scale3d(1.1,1.1,1);-moz-transform: scale3d(1.1,1.1,1);-o-transform: scale3d(1.1,1.1,1);transform: scale3d(1.1,1.1,1);}
+.portfolio .col-md-4{padding:0px !important;margin:0px !important;overflow:hidden !important;}
+.portfolio div.span3 img {width: auto !important;height: auto !important;max-width: 100%;overflow:hidden;} 
+.blogs{background:#f5f5f5;}
 .title-border{color: #333;margin: 0 0 30px 0;padding:0 0 .8em 0;font-size: 24px;font-weight: 400;border-bottom: 1px solid #d6d6d6;}
 .social-list{display:table;padding:0;}
 .social-list li{display:table-cell;}
@@ -103,22 +128,19 @@ a.top:hover{background: url(../img/top.png) no-repeat bottom center;transition-d
 .layout-footer .office .active p:hover .fa{color:#00b4ff !important;-webkit-transition:.6s;-moz-transition:.6s;-o-transition:.6s;transition:.6s;}
 .layout-footer .office .eq-ui-collapsible-header.active .active p:hover {color:#fff !important;}
 .layout-footer .office .eq-ui-collapsible-header.active {color:#fff;}
+.layout-footer .office .eq-ui-collapsible-header a{padding: 0px 8px;}
 .layout-footer .office .eq-ui-collapsible-header a{padding:0px 8px;}
-.layout-footer .office .eq-ui-collapsible-header.active a{padding:0px 5px;}
-.layout-footer .office .active .eq-ui-collapsible-body .fa{color:#b9b9b9 !important;font-size:17px;} 
-.layout-footer .office .active .eq-ui-collapsible-body a,.layout-footer .office .active .eq-ui-collapsible-body p{color:#ffff !important;font-size:15px;}
-.layout-footer .office .active .eq-ui-collapsible-body a:hover,
-.layout-footer .office .active .eq-ui-collapsible-body p:hover{color:#fff !important;font-size:15px;}
+.layout-footer .office .active .eq-ui-collapsible-body .fa{color:#b9b9b9 !important;font-size:17px;}   
 .layout-footer .office .eq-ui-collapsible-header .fa {margin:5px 8px 0px 4px;}
-.layout-footer .office .eq-ui-collapsible-header.active .fa{margin:5px 8px 0px 4px;color:#00b4ff;}
+.layout-footer .office .eq-ui-collapsible-header .fa{margin:5px 9px 0px 4px;color:#00b4ff;}
 .layout-footer .office .eq-ui-collapsible li .eq-ui-collapsible-body {display: none;border-bottom: 1px solid #626262;}
 .layout-footer .office .eq-ui-collapsible li .eq-ui-collapsible-body p{margin-bottom:16px}
-.layout-footer .office .active .eq-ui-collapsible-body-inner {padding:15px 20px 0px;}
-.layout-footer .office .active .eq-ui-collapsible-body-inner .fa{margin:3px 0px 0px!important;padding:0px !important;}
+.layout-footer .office .eq-ui-collapsible-body-inner {padding:15px 20px 0px;}
+.layout-footer .office .eq-ui-collapsible-body-inner .fa{margin:3px 0px 0px!important;padding:0px !important;}
 .scroll-btn-anim {width: 3px !important;height: 12px;background: #d8d8d8;position: relative;-webkit-animation: mymove 1.5s infinite;  /* Chrome, Safari, Opera */ -webkit-animation-timing-function: linear;  /* Chrome, Safari, Opera */ animation: mymove 1.5s infinite;animation-timing-function: linear;border-radius:5px;margin:auto;}
 .layout-footer .partner-list {padding:5px 20px !important;}
 .layout-footer .presentation-list {padding:5px 0px !important;}
-.layout-footer .office  ul{padding:0px 12px !important;}
+.layout-footer .office  ul{padding: 0px 11px !important;}
 body .parallax-mirror {left:0px !important;}
 body .parallax-mirror.canvas-slid{left:0px !important;}
 
@@ -1051,6 +1073,36 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
         width: 100%;
         height: 100% !important;
     }
+    .office {
+        padding:0px;
+    }
+    .portfolio .span3 a .img-hover{padding:46px 0px !important;}
+    .portfolio .span3.proj1 a .img-hover{padding:56px 0px !important}
+    .portfolio .span3.proj1 a .img-hover img{width:25% !important}
+    .portfolio .span3.proj2 a .img-hover{padding:66px 0px !important;}
+    .portfolio .span3.proj2 a .img-hover img{width:35% !important}
+    .portfolio .span3.proj3 a .img-hover{padding:76px 0px !important;}
+    .portfolio .span3.proj3 a .img-hover img{width:45% !important}
+    .portfolio .span3.proj4 a .img-hover{padding:66px 0px !important;}
+    .portfolio .span3.proj4 a .img-hover img{width:35% !important}
+    .portfolio .span3.proj5 a .img-hover {padding:80px 0px !important;}
+    .portfolio .span3.proj5 a .img-hover img{width:50% !important}
+    .portfolio .span3.proj6 a .img-hover {padding:60px 0px !important;}
+    .portfolio .span3.proj6 a .img-hover img{width:25% !important}
+    .portfolio .span3.proj7 a .img-hover {padding:86px 0px !important;}
+    .portfolio .span3.proj8 a .img-hover {padding:76px 0px !important;}
+    body .portfolio .span3.proj8 a .img-hover img{width:45% !important}
+    .portfolio .span3.proj9 a .img-hover {padding:65px 0px !important;}
+    .portfolio .span3.proj9 a .img-hover img{width:55% !important}
+    .portfolio .span3.proj11 a .img-hover {padding:80px 0px !important;}
+    .portfolio .span3.proj12 a .img-hover {padding:66px 0px !important}
+    body .portfolio .span3.proj13 a .img-hover {padding:65px 0px !important;}
+    .portfolio .span3.proj12 a .img-hover img{width:40% !important;}
+    .portfolio .span3.proj10 a .img-hover {padding:85px 0px !important;}
+    .portfolio .span3.proj10 a .img-hover span{font-size:15px;color:#fff;font-weight:400;border:solid 1px;padding:10px}
+    .portfolio .span3.proj8 a .img-hover img{width:30% !important;}
+    .portfolio .span3.proj11 a .img-hover img{width:30% !important;}
+    .portfolio .span3.proj7 a .img-hover img{width:35% !important;}
 }
 @media (min-width: 768px){
     #general-title-p {
@@ -1070,6 +1122,23 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     .web-services {padding: 110px 0 !important;background: url(../img/webservices-static-bg.jpg) top right;background-size: cover;}
     .web-services-commerce {color: #fff;padding: 110px 0;background: #2a3139 url('../img/e-commerce-platform-section.jpg') left top ;background-size: cover;}
     .portfolio,.blogs{padding:60px 0;background:#fff;}
+
+    
+    .portfolio .span3.proj1 a .img-hover{padding:66px 0px !important}
+    .portfolio .span3.proj2 a .img-hover{padding:76px 0px !important;} 
+    .portfolio .span3.proj3 a .img-hover{padding:86px 0px !important;}
+    .portfolio .span3.proj4 a .img-hover{padding:66px 0px !important;}
+    .portfolio .span3.proj5 a .img-hover {padding:85px 0px !important;}
+    .portfolio .span3.proj6 a .img-hover {padding:65px 0px !important;}
+    .portfolio .span3.proj7 a .img-hover {padding:96px 0px !important;}
+    .portfolio .span3.proj8 a .img-hover {padding:76px 0px !important;}
+    .portfolio .span3.proj9 a .img-hover {padding:65px 0px !important;}
+    .portfolio .span3.proj9 a .img-hover img{width:55% !important}
+    .portfolio .span3.proj11 a .img-hover {padding:95px 0px !important;}
+    .portfolio .span3.proj12 a .img-hover {padding:85px 0px !important}
+    body .portfolio .span3.proj13 a .img-hover {padding:65px 0px !important;}
+    .portfolio .span3.proj12 a .img-hover img{width:40% !important;}
+    .portfolio .span3.proj10 a .img-hover {padding:100px 0px !important;}
 }
 @media only screen and (max-width: 768px) {
     .general.custom .main-container {
@@ -1090,12 +1159,18 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     .portfolio,.blogs{padding:60px 0;background:#fff;}
     .header-cover {padding: 200px 0px 100px 0px;}
 }
+@media only screen and (max-width: 767px) { 
+     .portfolio .span3 {width:100%;} 
+     .portfolio .col-md-4 { width:53%;margin:auto !important;margin-top:10px !important;} 
+}
 @media only screen and (max-width: 640px) {
     #btm_bg {
         height: 80px;
         background-size: 100% 100% !important;
     }
     .subtitle .title {font-size: 38px !important;font-weight: 300;}
+    .portfolio .span3 {width:100%;} 
+    .portfolio .col-md-4 { width:85%;margin:auto !important;margin-top:10px !important;} 
 }
 @media only screen and (max-width: 400px) {
     #btm_bg {

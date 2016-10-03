@@ -5,9 +5,9 @@ block content
   #Trendssec.trends
     .container
       .subtitle.text-center.mb-30
-        h1.title.slide-bottom Design and Web Trends for 2017
+        h1.title Design and Web Trends for 2017
       .row
-        .col-md-4.col-sm-6.slide-bottom
+        .col-md-4.col-sm-6
           .boxes.trends123.trend1
             .boxes-img.text-center
               img(src="../img/trends/adopt-mobile.png")
@@ -15,7 +15,7 @@ block content
               h4 Adopt a mobile-first approach
             .boxes-body
               p With mobile-phones now officially named as the primary devices used for browsing the web,  more companies are realising the importance of having a site that effectively delivers content on a smaller screen. Content is designed to fit on mobile and smaller screened devices first, then you work up towards the larger-screened devices.
-        .col-md-4.col-sm-6.slide-bottom
+        .col-md-4.col-sm-6
           .boxes.trends123.trend2
             .boxes-img.text-center
               img(src="../img/trends/responsive-design.png")
@@ -23,7 +23,7 @@ block content
               h4 Wider implementation of Responsive Design
             .boxes-body
               p Very much in the same way as mobile first, the number of businesses that will implement a responsive design will still grow substantially. It keeps customers happy with an all-important user experience and it keeps Google search happy for the keyword rankings.
-        .col-md-4.col-sm-6.slide-bottom
+        .col-md-4.col-sm-6
           .boxes.trends123.trend3
             .boxes-img.text-center
               img(src="../img/trends/originality.png")
@@ -31,7 +31,7 @@ block content
               h4 Focus on originality
             .boxes-body
               p Customers and users today seek authenticity from the brands they use, and stock pictures of creatives sat around a screen, or business men smiling just won’t cut it anymore. In order for a brand to really strike a connection with it’s audience, they’ll need carefully considered and completely bespoke visuals which are more representative of who they really are. Bespoke illustrations, big and beautiful typography, and authentic photography are becoming real design differentiators.
-        .col-md-4.col-sm-6.slide-bottom
+        .col-md-4.col-sm-6
           .boxes.trends-bottom.trend4
             .boxes-img.text-center
               img(src="../img/trends/animation-advance.png")
@@ -39,7 +39,7 @@ block content
               h4 Animations advance
             .boxes-body
               p Story-telling and personality is something more and more brands are working on to capture their user’s attention, and animation is starting to play a bigger role in this. Animations come in all different shape, sizes and styles, and can all serve different purposes. Animations can range from tiny loading-devices which entertains the user while waiting for content to load, to an interesting hover-state used as a UX device to show a user they’re hovering over a link.
-        .col-md-4.col-sm-6.slide-bottom
+        .col-md-4.col-sm-6
           .boxes.trends-bottom.trend5
             .boxes-img.text-center
               img(src="../img/trends/grid-cards.png")
@@ -47,7 +47,7 @@ block content
               h4 More card and grid UI
             .boxes-body
               p Cards, made famous by Pinterest are UIs where pieces of content (text, imagery, video) are broken down into individual ‘cards’ which the user is able to navigate through. Card UIs allow brands to show larger amounts of content on a screen at once. Cards tie in nicely with Mobile-First design and Responsive design with gesture based swiping.
-        .col-md-4.col-sm-6.slide-bottom
+        .col-md-4.col-sm-6
           .boxes.trends-bottom.trend6
             .boxes-img.text-center
               img(src="../img/trends/scroll-parallax.png")
@@ -58,7 +58,7 @@ block content
       .row.trendsextend
         .col-md-4.col-hidden-sm
             p(style="display:none;") left
-        .col-md-4.col-sm-12.slide-bottom.trend77
+        .col-md-4.col-sm-12.trend77
             .boxes-img.text-center.trend7
               img(src="../img/trends/musthave-2017.png")
             .boxes-title
@@ -68,11 +68,11 @@ block content
         .col-md-4.col-hidden-sm
             p(style="display:none;") right
 
-  #our-approach.our-approach
+  #our-approach.our-approach(data-parallax="scroll" data-image-src="../img/static-approach.jpg")
     .container
       .row
         .col-md-6.text-center.slide-bottom
-          img(class="img-responsive", src='../img/our-approach-static.jpg', alt='', width='541', height='228')
+          img(class="img-responsive", src='../img/static-approach.png', alt='', width='541', height='228')
         .col-md-6.slide-bottom
           .title-holder
             h2.title- Our Approach
@@ -81,7 +81,7 @@ block content
             p Static websites are cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes.
           .btn-learn
             a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
-  #web-services.web-services(data-parallax="scroll" data-image-src="../img/webservices1.jpg")
+  #web-services.web-services(stye="background:#f9f9f9;")
     .container
       .row
         .col-md-6.text-center
@@ -170,58 +170,84 @@ block content
         h1.title Our Projects
       .row.mt-40
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj1
             a.example-image-link(href='../img/anzac-full.jpg', data-lightbox='set')
-              img(title='', src='../img/anzac-thumb.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/anzac-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/anzac-hover-img.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj2
             a.example-image-link(href='../img/lanarkshire-full.jpg', data-lightbox='set')
-              img(title='', src='../img/lanarkshire-thumb.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/lanark-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/lanark-hover-img.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj3
             a.example-image-link(href='../img/ats-full.jpg', data-lightbox='set')
-              img(title='', src='../img/ats-thumb.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/ats-thumv.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/ats-hover.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj4
             a.example-image-link(href='../img/gascert-full.jpg', data-lightbox='set')
-              img(title='', src='../img/gascert-thumb.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/gas-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/gas-hover.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj5
             a.example-image-link(href='../img/guemili-full.jpg', data-lightbox='set')
-              img(title='', src='../img/guemili-thumb.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/giuemelli-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/giuemelli-hover.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj6
             a.example-image-link(href='../img/afs-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/afs-resize1.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/afs-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/afs-hover.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj7
             a.example-image-link(href='../img/es-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/es-resize1.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/esports-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/esports-hover.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj8
             a.example-image-link(href='../img/buzzin-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/buzzin-resize1.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/buzzin-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/buzzin-hover.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj9
             a.example-image-link(href='../img/sbr.jpg', data-lightbox='set')
-              img(title='', src='../img/sbr-thumb.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/sbrchina-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/sbrchina-hover.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj10
             a.example-image-link(href='../img/tymad.jpg', data-lightbox='set')
-              img(title='', src='../img/tymad-thumb.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/tymad-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                span TYMAD BISTRO
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj11
             a.example-image-link(href='../img/advance-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/advance-resize1.jpg', alt='', width='350', height='221')
+              img.thumb-proj(title='', src='../img/projects/advanced-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/advanced-hover.png')
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj12
             a.example-image-link(href='../img/blind-resize.jpg', data-lightbox='set')
-              img(src='../img/blind-resize1.jpg', alt='', width='350', height='221')
+              img.thumb-proj(src='../img/projects/blinds-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/blinds-hover.png')
         .col-md-4.hidden-xs.hidden-sm
         .col-md-4.col-sm-6.text-center
-          .span3
+          .span3.proj13
             a.example-image-link(href='../img/healthport.jpg', data-lightbox='set')
-              img(src='../img/healthport-thumb.jpg', alt='', width='350', height='221')
+              img.thumb-proj(src='../img/projects/healthport1-thumb.jpg', alt='', width='350', height='221')
+              div.img-hover
+                img(title='', src='../img/projects/healthport1-hover.png')
         .col-md-4.hidden-xs.hidden-sm  
   #blogs.blogs
     .container
