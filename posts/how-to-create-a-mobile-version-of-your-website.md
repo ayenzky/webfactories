@@ -1,9 +1,9 @@
 ---
 title: How to create a mobile version of your website?
-shortdesc: "The mobile industry is expanding at lightning speed. In fact, new devices are being evolved every now and then. According to a study by Netmarketshare, the use of the operating system, iOS for Apple devices including iPad and iPhone, doubled in only 7-8 months. Moreover, more than 40% of Google search results now originate from smartphones and mobile devices."
+shortdesc: "The mobile industry is expanding at lightning speed. In fact, new devices are being evolved every now and then."
 cmsUserSlug: ""
 date: 2016-05-24T16:00:00.000Z
-banner: /img/uploads/mobile-version.jpg
+banner: /img/uploads/header.jpg
 categories: recent-blog
 writer: Mary Scott
 ---
