@@ -28,18 +28,19 @@ html
     <!-- Custom CSS -->
 
 
-  body#page-top
+  body#page-top 
+      
     header
       include includes/menu
-
-    div.loader
-      include includes/loader
 
     section#head-bg
       include includes/header
 
     div.main-container
       block content
+
+    div#newsletter
+      include includes/newsletter
 
     footer
       include includes/footer

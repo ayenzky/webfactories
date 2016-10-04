@@ -254,43 +254,30 @@ block content
       .subtitle.mb-40
             h1.title.mt-0 Blogs
       .row
-        .col-md-6.blog-left.slide-bottom
+        .col-md-12.blog-left.slide-bottom
           h2.mt-0.title-border Recent Blogs
-          #home-article
-            each post in posts.orderBy('date', 'desc').slice(0,2)
-              article.post-article
-                .article-banner
-                  a(href=post.permalink)
-                    img(src= post.banner)
-                .article-title
-                  h3
-                    a(href=post.permalink)= post.title
-                .article-publish
-                  ul
-                    li By
-                      span.author-name= post.writer
-                    li Posted
-                      span= dateFormat(post.date, 'LL')
-                .article-body
-                  p= post.shortdesc
-                .article-more
-                  a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
+          .row
+            #home-article
+              each post in posts.orderBy('date', 'desc').slice(0,3)              
+                .col-md-4
+                  article.post-article
+                    .article-banner
+                      a(href=post.permalink)
+                        img(src= post.banner)
+                    .article-title
+                      h3
+                        a(href=post.permalink)= post.title
+                    .article-publish
+                      ul
+                        li By
+                          span.author-name= post.writer
+                        li Posted
+                          span= dateFormat(post.date, 'LL')
+                    .article-body
+                      p= post.shortdesc
+                    .article-more
+                      a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
           .more-entries.mt-20
             a(href="/recent-blog") More Entries
-        .col-md-6.blog-right.sm-mt.slide-bottom
-          .newsletter
-            h2.title-border Join Newsletter
-            p.mb-30
-              | Subcribes to our newsletter by entering your email below to keep updated to our latest news and information.
-            #mc_embed_signup.button-primary
-              form#mc-embedded-subscribe-form.validate.eq-ui-input.validate(action='//webfactories.us3.list-manage.com/subscribe/post?u=8cb5583254702490f52f894ff&id=f81bd08495', method='post', name='mc-embedded-subscribe-form', novalidate='', target='_blank')
-                .eq-ui-form-group.eq-ui-input-field
-                  input#email_val.eq-ui-input.validate(name='EMAIL', required='', type='email', value='')
-                  label(for='email_val', data-error='wrong', data-success='right') Email
-                div(style='position: absolute; left: -5000px;')
-                  input(name='b_8cb5583254702490f52f894ff_f81bd08495', type='text', value='')
-                .clear
-                  .eq-ui-form-group.eq-ui-input-field.form-btn
-                    input#mc-embedded-subscribe.button.btn.btn-primary.eq-ui-waves-light(name='subscribe', type='submit', value='Subscribe')
 
             
