@@ -6,7 +6,12 @@ $(document).ready(function(){
     });
  
     $('.boxes p').expander({
-      slicePoint: 230,
+      slicePoint: 130,
+      expandText: '[more]',
+      userCollapseText: '[less]'
+    })
+    $('.trend77 .boxes-body  p').expander({
+      slicePoint: 130,
       expandText: '[more]',
       userCollapseText: '[less]'
     })
