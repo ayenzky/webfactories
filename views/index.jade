@@ -2,7 +2,7 @@ extends layout
 
 block content
 
-  #Trendssec.trends
+  #Trendssec.trends.trends2
     .container
       .subtitle.text-center.mb-30
         h1.title Design and Web Trends for 2017
@@ -10,15 +10,15 @@ block content
         .col-md-4.col-sm-6
           .boxes.trends123.trend1
             .boxes-img.text-center
-              img(src="../img/trends/adopt-mobile.png")
+              img(src="../img/trends/new/adopt.jpg")
             .boxes-title
-              h4 Adopt a mobile-first approach
+              h4 Adopt a mobile-first<br> approach
             .boxes-body
               p With mobile-phones now officially named as the primary devices used for browsing the web,  more companies are realising the importance of having a site that effectively delivers content on a smaller screen. Content is designed to fit on mobile and smaller screened devices first, then you work up towards the larger-screened devices.
         .col-md-4.col-sm-6
           .boxes.trends123.trend2
             .boxes-img.text-center
-              img(src="../img/trends/responsive-design.png")
+              img(src="../img/trends/new/wider-responsive.jpg")
             .boxes-title
               h4 Wider implementation of Responsive Design
             .boxes-body
@@ -26,33 +26,42 @@ block content
         .col-md-4.col-sm-6
           .boxes.trends123.trend3
             .boxes-img.text-center
-              img(src="../img/trends/originality.png")
+              img(src="../img/trends/new/focus-originality.jpg")
             .boxes-title
-              h4 Focus on originality
+              h4 Focus on <br>originality
             .boxes-body
               p Customers and users today seek authenticity from the brands they use, and stock pictures of creatives sat around a screen, or business men smiling just won’t cut it anymore. In order for a brand to really strike a connection with it’s audience, they’ll need carefully considered and completely bespoke visuals which are more representative of who they really are. Bespoke illustrations, big and beautiful typography, and authentic photography are becoming real design differentiators.
-        .col-md-4.col-sm-6
+        .col-md-4.col-sm-6.trend4-responsive4(style="display:none")
           .boxes.trends-bottom.trend4
             .boxes-img.text-center
-              img(src="../img/trends/animation-advance.png")
+              img(src="../img/trends/new/animation-advance.jpg")
             .boxes-title
               h4 Animations advance
+            .boxes-body
+              p Story-telling and personality is something more and more brands are working on to capture their user’s attention, and animation is starting to play a bigger role in this. Animations come in all different shape, sizes and styles, and can all serve different purposes. Animations can range from tiny loading-devices which entertains the user while waiting for content to load, to an interesting hover-state used as a UX device to show a user they’re hovering over a link.
+      .row
+        .col-md-4.col-sm-6.trend44-responsive44
+          .boxes.trends-bottom.trend4
+            .boxes-img.text-center
+              img(src="../img/trends/new/animation-advance.jpg")
+            .boxes-title
+              h4 Animations<br> advance
             .boxes-body
               p Story-telling and personality is something more and more brands are working on to capture their user’s attention, and animation is starting to play a bigger role in this. Animations come in all different shape, sizes and styles, and can all serve different purposes. Animations can range from tiny loading-devices which entertains the user while waiting for content to load, to an interesting hover-state used as a UX device to show a user they’re hovering over a link.
         .col-md-4.col-sm-6
           .boxes.trends-bottom.trend5
             .boxes-img.text-center
-              img(src="../img/trends/grid-cards.png")
+              img(src="../img/trends/new/gridui.jpg")
             .boxes-title
-              h4 More card and grid UI
+              h4 More card and<br> grid UI
             .boxes-body
               p Cards, made famous by Pinterest are UIs where pieces of content (text, imagery, video) are broken down into individual ‘cards’ which the user is able to navigate through. Card UIs allow brands to show larger amounts of content on a screen at once. Cards tie in nicely with Mobile-First design and Responsive design with gesture based swiping.
         .col-md-4.col-sm-6
           .boxes.trends-bottom.trend6
             .boxes-img.text-center
-              img(src="../img/trends/scroll-parallax.png")
+              img(src="../img/trends/new/innovative-scrolling.jpg")
             .boxes-title
-              h4 Innovative scrolling and parallax
+              h4 Innovative scrolling<br> and parallax
             .boxes-body
               p Scrolling, once reserved for getting from top of a page to the bottom, is being used in more creative capacities to deliver content online. Scrolling is a versatile mechanic which can work great with all varieties of content delivery. It works with video based content, where large full screen videos play and pause as the user scrolls, as well as static content, which can animate, move, or change depending on the users input.
       .row.trendsextend
@@ -60,28 +69,15 @@ block content
             p(style="display:none;") left
         .col-md-4.col-sm-12.trend77
             .boxes-img.text-center.trend7
-              img(src="../img/trends/musthave-2017.png")
+              img(src="../img/trends/new/must2017.jpg")
             .boxes-title
-              h4 Must have for 2017
+              h4 Must have for<br> 2017
             .boxes-body
               p As a business you may not be ready to implement all the trends mentioned. But what you must have going in to next year is a super fast, SSL secured, reliable and scalable website that is designed for Mobile-First. If not, your customers and Google will leave you behind.
         .col-md-4.col-hidden-sm
             p(style="display:none;") right
 
-  #our-approach.our-approach(data-parallax="scroll" data-image-src="../img/static-approach.jpg")
-    .container
-      .row
-        .col-md-6.text-center.slide-bottom
-          img(class="img-responsive", src='../img/static-approach.png', alt='', width='541', height='228')
-        .col-md-6.slide-bottom
-          .title-holder
-            h2.title- Our Approach
-            h3.sub-title Static is the new Dynamic 
-          .text-body
-            p Static websites are cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes.
-          .btn-learn
-            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
-  #web-services.web-services(stye="background:#f9f9f9;")
+  #our-approach.our-approach.approach2(data-parallax="scroll" data-image-src="../img/static-approach.jpg")
     .container
       .row
         .col-md-6.text-center
@@ -110,6 +106,20 @@ block content
                   img(src='../img/cost-effective.png', alt='')
                   br
                   | Cost-effective
+        .col-md-6.slide-bottom
+          .title-holder
+            h2.title- Our Approach
+            h3.sub-title Static is the new Dynamic 
+          .text-body
+            p Static websites are cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes.
+          .btn-learn
+            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
+
+  #web-services.web-services.static-samp
+    .container
+      .row
+        .col-md-6.text-center
+          img(class="img-responsive", src='../img/static-approach.png', alt='', width='541', height='228')
         .col-md-6
           .title-holder
             h2.title-.white-text Web Services
@@ -263,8 +273,8 @@ block content
                   .eq-ui-card
                     article.post-article
                       .article-banner
-                        .eq-ui-card-image.waves-effect.waves-block.waves-light
-                          img.dropdown-trigger(data-target='dropdown-test', data-hover='false', data-below-origin='true', height='180', src= post.banner)
+                        a.eq-ui-card-image.waves-effect.waves-block.waves-light(href=post.permalink)
+                          img(src= post.banner)
                       .article-title
                         h3
                           a(href=post.permalink)= post.title
@@ -279,21 +289,6 @@ block content
                       .article-more
                         a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
 
-                    #dropdown-test.eq-ui-dropdown.eq-ui-dropdown-right-bottom
-                      .article-title
-                        h3
-                          a(href=post.permalink)= post.title
-                      .article-publish
-                        ul
-                          li By
-                            span.author-name= post.writer
-                          li Posted
-                            span= dateFormat(post.date, 'LL')
-                      .article-body
-                        p= post.shortdesc
-                      .article-more
-                        a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
-               
           .more-entries.mt-20
             a(href="/recent-blog") More Entries
 
