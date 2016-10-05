@@ -15,6 +15,12 @@ $(document).ready(function(){
       expandText: '[more]',
       userCollapseText: '[less]'
     })
+    $('#home-article .article-body p').expander({
+      slicePoint: 130,
+      expandText: '...',
+      userCollapseText: '[less]'
+    })
+
     $("<div class='overlay'></div>").appendTo("#navbar");
     $(".overlay").on('click', function(){
     $(".navbar-header button").addClass("collapsed");
