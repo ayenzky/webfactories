@@ -235,7 +235,7 @@ block content
           h2.mt-0.title-border Recent Blogs
           .row
             #home-article
-              each post in posts.orderBy('date', 'desc').slice(0,3)              
+              each post in posts.orderBy('date', 'desc').slice(0,6)              
                 .col-md-4
                   .eq-ui-card
                     article.post-article
@@ -258,34 +258,5 @@ block content
 
           .more-entries.mt-20
             a(href="/recent-blog") More Entries
-
-      .row
-        .col-md-12.card-blogs
-          .row
-            each post in posts.orderBy('date', 'desc').slice(0,3)
-              .col-md-4              
-                // With Dropdown
-                .eq-ui-card.doc-margin-bottom
-                    .eq-ui-card-image.waves-effect.waves-block.waves-light
-                        img.dropdown-trigger(data-target='dropdown-test', data-hover='false', data-below-origin='true', height='180', src=post.banner)
-                    .eq-ui-card-title
-                        h2.eq-ui-card-title-text post.title
-                            a.btn.dropdown-trigger.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves(data-target='dropdown-test', data-hover='false', data-below-origin='true')
-                                i.mdi.mdi-dots-vertical.icon
-                    .eq-ui-card-supporting-text.eq-ui-card-border.article-body
-                        p= post.shortdesc
-                    .eq-ui-card-actions.eq-ui-card-border
-                        a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
-
-                    // Dropdown Structure
-                    #dropdown-test.eq-ui-dropdown.eq-ui-dropdown-right-bottom
-                        .eq-ui-card-title
-                            h2.eq-ui-card-title-text post.title
-                                a.btn.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves.eq-ui-dropdown-close.waves-effect
-                                    i.mdi.mdi-close.eq-ui-icon
-                        .eq-ui-card-supporting-text.eq-ui-card-border
-                            p= post.shortdesc
-                        .eq-ui-card-actions.eq-ui-card-border
-                            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
 
             
