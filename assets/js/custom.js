@@ -15,9 +15,14 @@ $(document).ready(function(){
       expandText: '[more]',
       userCollapseText: '[less]'
     })
-    $('#home-article .article-body p').expander({
+    $('.card-blogs .article-body p').expander({
       slicePoint: 130,
       expandText: '...',
+      userCollapseText: '[less]'
+    })
+    $('.responsive-web .detresp').expander({
+      slicePoint: 120,
+      expandText: 'more',
       userCollapseText: '[less]'
     })
 
@@ -26,6 +31,11 @@ $(document).ready(function(){
     $(".navbar-header button").addClass("collapsed");
     $("#navbar").removeClass("in");
     });
+
+    // Dropdown cards
+    $('.eq-ui-dropdown-close').on('click', function(){
+        $('.dropdown-trigger').dropdown({close: true})
+    })
     
 
 });

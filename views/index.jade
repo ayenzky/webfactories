@@ -77,72 +77,45 @@ block content
         .col-md-4.col-hidden-sm
             p(style="display:none;") right
 
-  #our-approach.our-approach.approach2(data-parallax="scroll" data-image-src="../img/static-approach.jpg")
+  #our-approach.our-approach.approach2
     .container
       .row
-        .col-md-6.text-center
-          ul.list-.icon-static
-            li
-              p
-                em
-                  img(src='../img/superfast-white.png', alt='')
-                  br
-                  | Superfast
-            li
-              p
-                em
-                  img(src='../img/security-white.png', alt='')
-                  br
-                  | Secure
-            li
-              p
-                em
-                  img(src='../img/simple.png', alt='')
-                  br
-                  | Simple
-            li
-              p
-                em
-                  img(src='../img/cost-effective.png', alt='')
-                  br
-                  | Cost-effective
-        .col-md-6.slide-bottom
-          .title-holder
-            h2.title- Our Approach
-            h3.sub-title Static is the new Dynamic 
-          .text-body
-            p Static websites are cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes.
-          .btn-learn
-            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
+        .col-md-12.responsive-web
+          h1.title-resp
+            | Web Services
+          h2.subt-resp
+            | Responsive Websites
+          .col-md-3.col-sm-6
+            img(src="../img/repwebsite/superfast.png")
+            div.det
+              h3.tileres Superfast
+              p.detresp
+                | Your site will be served through a Content Delivery Network instead of a single server. That means much lower latency, much faster downloads and a near 100% uptime. If one of our servers goes down, another server takes over instantaneously.
+          .col-md-3.col-sm-6
+            img(src="../img/repwebsite/security.png")
+            div.det
+              h3.tileres Security
+              p.detresp
+                | Your site has no movable parts, no database to connect to or scripts that need to be executed and there is no way to inject malware. Malware, outdated scripts, denial of service attacks are of the past.
+          .col-md-3.col-sm-6
+            img(src="../img/repwebsite/simplicity.png")
+            div.det
+              h3.tileres Simplicity
+              p.detresp
+                | No need to optimize your website for faster database queries or faster downloads. When the website is build, it is build. Changes in the Template and the Content will automatically trigger a new build. The entire process takes no more then 20 seconds.
+          .col-md-3.col-sm-6
+            img(src="../img/repwebsite/costeffective.png")
+            div.det
+              h3.tileres Cost Effective
+              p.detresp
+                | It is cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes. If not money, it will save you a lot of headaches.
+      .row
+        .col-md-12.responsive-web
+          div.resp-learnmore
+            a(href='/static-websites')
+              i.fa.fa-long-arrow-right(aria-hidden='true')
+              | LEARN MORE
 
-  #web-services.web-services.static-samp
-    .container
-      .row
-        .col-md-6.text-center
-          img(class="img-responsive", src='../img/static-approach.png', alt='', width='541', height='228')
-        .col-md-6
-          .title-holder
-            h2.title-.white-text Web Services
-            h3.sub-title.mb-10 Static Websites
-          .text-body
-            ul.list-
-              li
-                em.fa.fa-check-circle-o   
-                | Custom Designed Templates
-              li
-                em.fa.fa-check-circle-o   
-                | Responsive Templates
-              li
-                em.fa.fa-check-circle-o   
-                | Hosted on a Superfast CDN Network
-              li
-                em.fa.fa-check-circle-o   
-                | Back-up and Restore
-              li
-                em.fa.fa-check-circle-o   
-                | Unlimited Content Management Support
-          .btn-learn
-            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
   #web-services-commerce.web-services-commerce(data-parallax="scroll" data-image-src="../img/webservices2.jpg")
     .container
       .row
@@ -223,10 +196,10 @@ block content
                 img(title='', src='../img/projects/esports-hover.png')
         .col-md-4.col-sm-6.text-center
           .span3.proj8
-            a.example-image-link(href='../img/buzzin-resize.jpg', data-lightbox='set')
-              img.thumb-proj(title='', src='../img/projects/buzzin-thumb.jpg', alt='', width='350', height='221')
+            a.example-image-link(href='../img/healthport.jpg', data-lightbox='set')
+              img.thumb-proj(src='../img/projects/healthport1-thumb.jpg', alt='', width='350', height='221')
               div.img-hover
-                img(title='', src='../img/projects/buzzin-hover.png')
+                img(title='', src='../img/projects/healthport1-hover.png')
         .col-md-4.col-sm-6.text-center
           .span3.proj9
             a.example-image-link(href='../img/sbr.jpg', data-lightbox='set')
@@ -251,13 +224,7 @@ block content
               img.thumb-proj(src='../img/projects/blinds-thumb.jpg', alt='', width='350', height='221')
               div.img-hover
                 img(title='', src='../img/projects/blinds-hover.png')
-        .col-md-4.hidden-xs.hidden-sm
-        .col-md-4.col-sm-6.text-center
-          .span3.proj13
-            a.example-image-link(href='../img/healthport.jpg', data-lightbox='set')
-              img.thumb-proj(src='../img/projects/healthport1-thumb.jpg', alt='', width='350', height='221')
-              div.img-hover
-                img(title='', src='../img/projects/healthport1-hover.png')
+        .col-md-4.hidden-xs.hidden-sm        
         .col-md-4.hidden-xs.hidden-sm  
   #blogs.blogs
     .container
@@ -274,7 +241,7 @@ block content
                     article.post-article
                       .article-banner
                         a.eq-ui-card-image.waves-effect.waves-block.waves-light(href=post.permalink)
-                          img(src=post.banner)
+                          img(src= post.banner)
                       .article-title
                         h3
                           a(href=post.permalink)= post.title
@@ -285,11 +252,40 @@ block content
                           li Posted
                             span= dateFormat(post.date, 'LL')
                       .article-body
-                        p!= post.shortdesc
+                        p= post.shortdesc
                       .article-more
                         a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
 
           .more-entries.mt-20
             a(href="/recent-blog") More Entries
+
+      .row
+        .col-md-12.card-blogs
+          .row
+            each post in posts.orderBy('date', 'desc').slice(0,3)
+              .col-md-4              
+                // With Dropdown
+                .eq-ui-card.doc-margin-bottom
+                    .eq-ui-card-image.waves-effect.waves-block.waves-light
+                        img.dropdown-trigger(data-target='dropdown-test', data-hover='false', data-below-origin='true', height='180', src=post.banner)
+                    .eq-ui-card-title
+                        h2.eq-ui-card-title-text post.title
+                            a.btn.dropdown-trigger.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves(data-target='dropdown-test', data-hover='false', data-below-origin='true')
+                                i.mdi.mdi-dots-vertical.icon
+                    .eq-ui-card-supporting-text.eq-ui-card-border.article-body
+                        p= post.shortdesc
+                    .eq-ui-card-actions.eq-ui-card-border
+                        a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
+
+                    // Dropdown Structure
+                    #dropdown-test.eq-ui-dropdown.eq-ui-dropdown-right-bottom
+                        .eq-ui-card-title
+                            h2.eq-ui-card-title-text post.title
+                                a.btn.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves.eq-ui-dropdown-close.waves-effect
+                                    i.mdi.mdi-close.eq-ui-icon
+                        .eq-ui-card-supporting-text.eq-ui-card-border
+                            p= post.shortdesc
+                        .eq-ui-card-actions.eq-ui-card-border
+                            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
 
             
