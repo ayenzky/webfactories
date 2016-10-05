@@ -230,31 +230,34 @@ block content
       .subtitle.mb-40
             h1.title.mt-0 Blogs
       .row
-        .col-md-12.blog-left.slide-bottom
+        .col-md-12.articles-section
           h2.mt-0.title-border Recent Blogs
           .row
-            #home-article
-              each post in posts.orderBy('date', 'desc').slice(0,3)              
-                .col-md-4
-                  .eq-ui-card
-                    article.post-article
-                      .article-banner
-                        a.eq-ui-card-image.waves-effect.waves-block.waves-light(href=post.permalink)
-                          img(src= post.banner)
-                      .article-title
-                        h3
-                          a(href=post.permalink)= post.title
-                      .article-publish
-                        ul
-                          li By
-                            span.author-name= post.writer
-                          li Posted
-                            span= dateFormat(post.date, 'LL')
-                      .article-body
-                        p= post.shortdesc
-                      .article-more
+            each post in posts.orderBy('date', 'desc').slice(0,3)
+              .col-md-4.col-sm-6
+                .home-article-card
+                  .eq-ui-card.doc-margin-bottom
+                    .eq-ui-card-image.waves-effect.waves-block.waves-light
+                        img.dropdown-trigger.img-responsive(data-target=post.cardActivator, data-hover='false', data-below-origin='true', height='180', src=post.banner)
+                    .eq-ui-card-title
+                        h2.eq-ui-card-title-text=post.title
+                          a.btn.dropdown-trigger.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves(data-target=post.cardActivator, data-hover='false', data-below-origin='true')
+                              i.mdi.mdi-dots-vertical.icon
+                    .eq-ui-card-supporting-text.eq-ui-card-border.article-body
+                        p!= post.shortdesc
+                    .eq-ui-card-actions.eq-ui-card-border
                         a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
 
+                    // Dropdown Structure
+                    .eq-ui-dropdown.eq-ui-dropdown-right-bottom(id=post.cardActivator)
+                        .eq-ui-card-title
+                            h2.eq-ui-card-title-text=post.title
+                              a.btn.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves.eq-ui-dropdown-close.waves-effect
+                                  i.mdi.mdi-close.eq-ui-icon
+                        .eq-ui-card-supporting-text.eq-ui-card-border
+                            p!= post.shortdesc
+                        .eq-ui-card-actions.eq-ui-card-border
+                            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
           .more-entries.mt-20
             a(href="/recent-blog") More Entries
 

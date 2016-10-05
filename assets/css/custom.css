@@ -162,6 +162,29 @@ input.eq-ui-input[type=text].invalid, input.eq-ui-input[type=text]:focus.invalid
 #newsletter .newsletter .waves-button-input {
     padding: 1.2em 4.1em;
 }
+
+/* Add this on row 165 */
+
+.home-article-card .btn.eq-ui-btn-menu-fab {
+    transition: box-shadow .2s cubic-bezier(.4,0,.2,1) !important;
+    z-index: 0 !important;
+    border: none !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    padding: 0px 0px !important;
+    margin-top: 7px;
+    line-height: 36px !important;
+    margin-left: 15px;
+}
+.home-article-card .eq-ui-dropdown.eq-ui-dropdown-below-origin.eq-ui-dropdown-right-bottom{
+   bottom:0px;
+   height:100%;
+   z-index: 0;
+}
+.home-article-card {
+    margin-bottom: 15px
+}
+
 @media only screen and (max-width:1024px) {
     #newsletter .mb-30 {padding:0px 30px}
     #newsletter {padding:30px 0px 30px 0px;text-align:center;background:url(../img/newsletter-bg.jpg) fixed}

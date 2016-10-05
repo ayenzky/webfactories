@@ -15,9 +15,9 @@ $(document).ready(function(){
       expandText: '[more]',
       userCollapseText: '[less]'
     })
-    $('#home-article .article-body p').expander({
-      slicePoint: 130,
-      expandText: '...',
+    $('.home-article-card .article-body p').expander({
+      slicePoint: 90,
+      expandText: ' ',
       userCollapseText: '[less]'
     })
     $('.responsive-web .detresp').expander({
