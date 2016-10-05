@@ -15,7 +15,7 @@ $(document).ready(function(){
       expandText: '[more]',
       userCollapseText: '[less]'
     })
-    $('.card-blogs .article-body p').expander({
+    $('#home-article .article-body p').expander({
       slicePoint: 130,
       expandText: '...',
       userCollapseText: '[less]'
