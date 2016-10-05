@@ -21178,9 +21178,10 @@ fieldset[disabled] .btn-danger.active {
       align-self: flex-end;
   color: inherit;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 24px !important;
   line-height: normal;
   margin: 0;
+  color: #333;
 }
 
 .eq-ui-card .eq-ui-card-title.eq-ui-card-border {

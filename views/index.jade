@@ -240,9 +240,15 @@ block content
                     .eq-ui-card-image.waves-effect.waves-block.waves-light
                         img.dropdown-trigger.img-responsive(data-target=post.cardActivator, data-hover='false', data-below-origin='true', height='180', src=post.banner)
                     .eq-ui-card-title
-                        h2.eq-ui-card-title-text=post.title
-                          a.btn.dropdown-trigger.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves(data-target=post.cardActivator, data-hover='false', data-below-origin='true')
-                              i.mdi.mdi-dots-vertical.icon
+                      h2.eq-ui-card-title-text=post.title
+                        a.btn.dropdown-trigger.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves(data-target=post.cardActivator, data-hover='false', data-below-origin='true')
+                            i.mdi.mdi-dots-vertical.icon
+                    .eq-ui-card-info.article-publish
+                      ul
+                        li By
+                          span.author-name= post.writer
+                        li Posted
+                          span= dateFormat(post.date, 'LL')
                     .eq-ui-card-supporting-text.eq-ui-card-border.article-body
                         p!= post.shortdesc
                     .eq-ui-card-actions.eq-ui-card-border
@@ -251,9 +257,15 @@ block content
                     // Dropdown Structure
                     .eq-ui-dropdown.eq-ui-dropdown-right-bottom(id=post.cardActivator)
                         .eq-ui-card-title
-                            h2.eq-ui-card-title-text=post.title
-                              a.btn.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves.eq-ui-dropdown-close.waves-effect
-                                  i.mdi.mdi-close.eq-ui-icon
+                          h2.eq-ui-card-title-text=post.title
+                            a.btn.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves.eq-ui-dropdown-close.waves-effect
+                                i.mdi.mdi-close.eq-ui-icon
+                        .eq-ui-card-info.article-publish
+                          ul
+                            li By
+                              span.author-name= post.writer
+                            li Posted
+                              span= dateFormat(post.date, 'LL')
                         .eq-ui-card-supporting-text.eq-ui-card-border
                             p!= post.shortdesc
                         .eq-ui-card-actions.eq-ui-card-border
