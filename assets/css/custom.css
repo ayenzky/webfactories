@@ -35,8 +35,8 @@
 .approach2 .subt-resp{background:#0288d1;color:#fff !important;font-size:20px !important;font-weight:400;margin-bottom:80px}
 .approach2 .tileres {font-size:26px !important;color:#fff;}
 .resp-learnmore {padding:70px 0px 40px;}
-.resp-learnmore a{border:solid 1px #fff;padding:15px 60px;color:#fff;}
-.resp-learnmore a .fa{margin-right:10px;}
+.resp-learnmore a{border:solid 1px #fff;padding:8px 30px;color:#fff;font-size:20px;}
+.resp-learnmore a:hover{background:#fff;color:#0288d1}
 .detresp .read-more a{color:#ddd !important}
 .web-services{padding: 110px 0 !important;background: #6b6b6b;}
 .web-services.static-samp {background:#fff;}
