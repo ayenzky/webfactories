@@ -1501,7 +1501,32 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
 }
 @media (min-width: 1200px) {
     .popover.right {
-        width: 787px !important;
+        width: 681px !important;
     }
     .article-left{padding-right:30px;}
+}
+/*NEW UPDATE*/
+#WebriQshops .fa,
+#WebriQpages .fa {
+    font-size:16px
+}
+#WebriQshops .fa.fa-times,
+#WebriQpages .fa.fa-times
+{
+    color:#888 !important    
+}
+#paragraph-8591-container {
+    color: #fff;
+    padding: 0;
+    background: url('../img/slide-new-black.jpg');
+    background-attachment: fixed;
+}
+@media (max-width: 767px) and (min-width: 680px) {
+    .popover.right {
+        max-width: 42px !important;
+        min-width: 57% !important;
+    }
+    .pricing-nb .text-white {
+        font-size: 14px !important
+    }
 }
