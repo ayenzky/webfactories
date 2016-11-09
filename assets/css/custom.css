@@ -1553,6 +1553,9 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
     display:inline-block;
     margin:0px 10px;  
 }
+.responsive.static-iconize h2 {
+    color: #080808;
+}
 @media (max-width: 767px) and (min-width: 680px) {
     .popover.right {
         max-width: 42px !important;
