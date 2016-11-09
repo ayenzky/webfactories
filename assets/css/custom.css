@@ -1501,7 +1501,92 @@ body #mc_embed_signup #mc_embed_signup_scroll .button {
 }
 @media (min-width: 1200px) {
     .popover.right {
-        width: 787px !important;
+        width: 681px !important;
     }
     .article-left{padding-right:30px;}
+}
+/*NEW UPDATE*/
+#WebriQshops .fa,
+#WebriQpages .fa {
+    font-size:16px
+}
+#WebriQshops .fa.fa-times,
+#WebriQpages .fa.fa-times
+{
+    color:#888 !important    
+}
+#paragraph-8591-container {
+    color: #fff;
+    padding: 0;
+    background: url('/img/slide-new-black.jpg');
+    background-attachment: fixed;
+}
+.e-commerce {
+    color: #fff;
+    padding: 150px 0 60px 0;
+    background: url('/img/slide-new-black.jpg') center 0 no-repeat;
+    text-align: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100% !important;
+    min-width: 100% !important;
+    border-bottom: 4px solid #00b4ff;
+}
+#paragraph-6983-container {
+    color: #fff;
+    padding: 0;
+    background: url(/img/slide-new-black.jpg) center 0px;
+    background-attachment: fixed;
+}
+#botpage {
+    color: #fff;
+    padding: 0;
+    background: url(/img/slide-new-black.jpg) bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#bots_icons {
+    padding:0px;    
+}
+#bots_icons li{
+    list-style:none;
+    display:inline-block;
+    margin:0px 10px;  
+}
+@media (max-width: 767px) and (min-width: 680px) {
+    .popover.right {
+        max-width: 42px !important;
+        min-width: 57% !important;
+    }
+    .pricing-nb .text-white {
+        font-size: 14px !important
+    }
+}
+@media only screen and (max-width:500px) {
+    .partners.botpagespec {
+        padding:0px !important;
+        margin:0px !important
+    }
+    .botpagespec-det .thumb img{
+        width:15% !important;
+        margin-bottom:20px;
+    }
+    .partners img{
+        width:95%;
+    }
+    .partners .details {
+        padding-top:0 !important;
+    }
+    #bots_icons li{
+        width:50px;
+        margin:0px 0px !important;
+    }
+    #bots_icons img{
+        width:90%;
+        margin:0px 0px !important;
+    }
+    .botpage .title {
+    padding: 0px 0px 20px;
+    color: #fff;
+}
 }

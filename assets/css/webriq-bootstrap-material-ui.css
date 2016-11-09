@@ -208,8 +208,8 @@ body{padding-left:0px !important;}
     .wt{display:none !important; }
     .btn-learn a{display: block;}
 }
-@media (min-width:992px) and (max-width:1199px){.popover.right{width:647px!important;}}
-@media (max-width: 991px) and (min-width: 768px){.popover.right {width: 494px!important;}}
+@media (min-width:992px) and (max-width:1199px){.popover.right{width:562px!important;}}
+@media (max-width: 991px) and (min-width: 768px){.popover.right {width: 428px!important;}}
 
 .mdi {
   display: inline-block;
