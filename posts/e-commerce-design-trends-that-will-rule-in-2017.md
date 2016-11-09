@@ -81,3 +81,9 @@ You’re free to treat these as hogwash. Or share your own opinions for added en
 <hr>
 **Author Bio:** Lucy Barret, a talented blogger and WordPress developer, currently employed at HireWPGeeks Ltd. She is an expert of
 [converting HTML to WordPress](http://www.hirewpgeeks.com/services/html-to-wordpress/) theme and has a team of skilled developers to assist her. Follow her company on [Facebook](https://www.facebook.com/hirewpgeeks).
+
+<style>
+img {
+max-width:100%;
+}
+</style>
