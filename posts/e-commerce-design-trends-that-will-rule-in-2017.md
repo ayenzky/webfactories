@@ -3,7 +3,7 @@ title: E-commerce Design Trends that Will Rule in 2017
 shortdesc: "Here’s how I sum up this year: We gave a single phrase explanation to all our design and development fads (cough User-Experience cough) and have now arrived at a point where almost every design looks the same as the one before it."
 cmsUserSlug: ""
 date: 2016-11-09T00:00:00+08:00
-banner: /img/uploads/ecommerce-trends.jpg
+banner: /img/uploads/ecomm_trends_webfac_2017.jpg
 categories: ""
 writer: Lucy Barret
 ---
