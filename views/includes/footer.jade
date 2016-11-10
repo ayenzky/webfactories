@@ -1,126 +1,198 @@
-section#contact-us.layout-footer
-  .container
-    h1.mt-0.mb-10.white-text Contact Us
-    .row
-      .col-md-4.col-sm-6.col-xs-6.col-sx-12
-        h5
-          em.fa.fa-cog  
-          | PARTNER COMPANIES
-        ul.partner-list.p-0
-          li
-            a(href='http://webriq.us', target='_blank') WebriQ
-          li
-            a(href='http://australia.webfactories.biz', target='_blank') Webfactories Australia
-          li
-            a(href='http://webfactories-africa.com', target='_blank') Webfactories Africa
-          li
-            a(href='http://webfactories.co.uk', target='_blank') Webfactories UK
-          li
-            a(href='https://usa.webfactories.biz/home', target='_blank') Webfactories USA
-          li
-            a(href='http://aspley.buzzin.today/home', target='_blank') Buzzin
-      .col-md-4.col-sm-6.col-xs-6.col-sx-12
-        h5
-          em.fa.fa-location-arrow  
-          | OUR OFFICE
-        // <p>&nbsp;<em class="fa fa-mobile">&nbsp;</em>+1 203 2856929</p>
-        p
-          em.fa.fa-mobile  
-          | + 44 7711 651633
-        p
-          em.fa.fa-laptop(style='margin-right: 4px;')  
-          a(href='mailto:partners@webfactories.co.uk', target='_blank') partners@webfactories.co.uk
-      .col-md-4.col-sm-12.col-xs-12
-        .webfactories_presentation
-          h5
-            em.fa.fa-file-powerpoint-o  
-            | PRESENTATIONS
-          ul.presentation-list.p-0
-            li
-              a.slideshare_btn(href='http://www.slideshare.net/PhilippeBodart', target='blank_')
-                em.fa.fa-linkedin-square  
-                | SlideShare
-            li
-              a.slides_btn(href='http://slides.com/webfactories', target='blank_')
-                img(src='../img/slides.png', alt='')
-                | Slides
-  .container
-      p
-      p(style='text-align: right;margin-bottom:12px !important;')
-        a#page-topBtn.top(href='#')  
+section#contact-us.layout-footer.gray-section
+	.container
+		.row
+			.col-md-4.col-sm-6.col-xs-6
+				h5.med-text.mb-20.mt-20 PARTNER COMPANIES
+				ul.partner-list.p-0
+					li
+						a(href='http://webriq.us', target='_blank') WebriQ
+					li
+						a(href='http://kallangur.buzzin.today', target='_blank') Buzzin Australia
+					li
+						a(href='http://northlanarkshire.buzzin.today', target='_blank') Buzzin UK
+
+			.col-md-4.col-sm-6.col-xs-6.office
+				h5.med-text.mb-20.mt-20 OUR SALES OFFICES
+					// <p>&nbsp;<em class="fa fa-mobile">&nbsp;</em>+1 203 2856929</p>
+				ul.eq-ui-collapsible(data-collapsible='accordion')
+					li
+						.eq-ui-collapsible-header.active
+							a Webfactories - Australia
+						.eq-ui-collapsible-body
+							.eq-ui-collapsible-body-inner
+								p.name - Tony Watson
+								p - +61 408 766992
+								p -&nbsp;
+									a(href='mailto:tony.watson@webfactories.com.au', target='_blank')  tony.watson@webfactories.com.au
+								p -&nbsp;
+									a(href='skype:tonywatson.webfactories?call')  Call me on Skype
+					li
+						.eq-ui-collapsible-header
+							a Webfactories - UK
+						.eq-ui-collapsible-body
+							.eq-ui-collapsible-body-inner
+								p.name - Bob Wotherspoon
+								p - +44 7711 651633
+								p -&nbsp;
+									a(href='mailto:bob.wotherspoon@webfactories.co.uk', target='_blank')  bob.wotherspoon@webfactories.co.uk
+								p -&nbsp;
+									a(href='skype:bwotherspoon1?call')  Call me on Skype
+
+					li
+						.eq-ui-collapsible-header
+							a Webfactories - USA
+						.eq-ui-collapsible-body
+							.eq-ui-collapsible-body-inner
+								//- p.name
+								//-   i.fa.fa-user(aria-hidden='true')
+								//-   | Tony Watson
+								p - +1 203 285 6929
+								p -&nbsp;
+									a(href='mailto:sales@webfactories.us', target='_blank')  sales@webfactories.us
+								p -&nbsp;
+									a(href='skype:webriqmanagement?call')  Call me on Skype
+
+					li
+						.eq-ui-collapsible-header
+							a Webfactories - Africa
+						.eq-ui-collapsible-body
+							.eq-ui-collapsible-body-inner
+								p.name - AJ
+								p - +234 8033 224293
+								p -&nbsp;
+									a(href='mailto:yinka@webfactories-africa.com', target='_blank')  yinka@webfactories-africa.com
+								p -&nbsp;
+									a(href='skype:ajakaiye.yinka?call')  Call me on Skype
+
+			//- .colmd-3.col-sm-6.col-xs-6
+			//- 	.webfactories-services
+			//- 		h5.med-text.mb-20.mt-20 WEB SERVICES
+			//- 		ul
+			//- 			li
+			//- 				a(href="/static-websites") Responsive Websites
+			//- 			li
+			//- 				a(href="https://app.webriq.com/sites/create", target="_blank") Responsive E-commerce Websites
+
+			.col-md-4.col-sm-6.col-xs-6
+				.webfactories_presentation
+					h5.med-text.mb-20.mt-20 PRESENTATIONS
+					ul.presentation-list.p-0
+						li
+							a.flip_broch(href='/flip_brochure/mobile/index.html', target='blank_')
+								img(src='../img/p-1.png', alt='')
+						li
+							a.slideshare_btn(href='http://www.slideshare.net/PhilippeBodart', target='blank_')
+								img(src='../img/p-2.png', alt='')
+						li
+							a.slides_btn(href='http://slides.com/webfactories', target='blank_')
+								img(src='../img/p-3.png', alt='')
+				.newsletter
+					p Subcribes to our newsletter by entering your email below to keep updated to our latest news and information.
+					#mc_embed_signup
+						form#mc-embedded-subscribe-form.validate.eq-ui-input.validate(action='//webfactories.us3.list-manage.com/subscribe/post?u=8cb5583254702490f52f894ff&id=f81bd08495', method='post', name='mc-embedded-subscribe-form', novalidate='', target='_blank')
+							.eq-ui-form-group.eq-ui-input-field
+								input#email_val.eq-ui-input.validate(name='EMAIL', required='', type='email', value='')
+								label(for='email_val', data-error='wrong', data-success='right') Email
+							div(style='position: absolute; left: -5000px;')
+								input(name='b_8cb5583254702490f52f894ff_f81bd08495', type='text', value='')
+							.clear
+								input#mc-embedded-subscribe(name='subscribe', type='submit', value='Subscribe')
+	//- .container
+	//-     p
+	//-     p(style='text-align: right;margin-bottom:12px !important;')
+	//-       a#page-topBtn.top(href='#')  
 
 #copyright
-    .container
-      p
-        | All rights reserved!  2016 
-        a(href='http://webriq.com/', target='_blank') WebriQ
-        |  Pte Ltd | 
-        a(href='http://webriq.us/terms', target='_blank') Terms of use
-        |  | 
-        a(href='/cookies') Cookies
-  #cookieChoiceInfo(style='display: none;')
-    | Cookies help us deliver our services. By using our services, you agree to our use of cookies.
-    a(style='margin-left: 8px;', href='/cookies', target='_blank') learn more
-    a#cookieChoiceDismiss(style='margin-left: 24px;', href='#') Got it
+		.container
+			p
+				| All rights reserved!  2016 
+				a(href='http://webriq.com/', target='_blank') WebriQ
+				|  Pte Ltd |&nbsp;
+				a(href='http://webriq.us/terms', target='_blank') Terms of use
+				|  |&nbsp;
+				a(href='/cookies') Cookies
+	#cookieChoiceInfo(style='display: none;')
+		| Cookies help us deliver our services. By using our services, you agree to our use of cookies.
+		a(style='margin-left: 8px;', href='/cookies', target='_blank') learn more
+		a#cookieChoiceDismiss(style='margin-left: 24px;', href='#') Got it
 
 
 script(type="text/javascript", src="../js/webriq-bootstrap-material-ui.min.js")
-script(type="text/javascript", src="../js/lightbox-2.6.min.js")
-script(type="text/javascript", src="../js/modernizr.custom.js")
 script(type="text/javascript", src="../js/jasny-bootstrap.min.js")
+script(type="text/javascript", src="../js/lightbox-2.6.min.js")
+//- script(type="text/javascript", src="../js/modernizr.custom.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js")
 script(type="text/javascript", src="../js/jquery.expander.min.js")
 script(type="text/javascript", src="../js/cookies.js")
 script(type="text/javascript", src="../js/scrolld.js")
+script(type="text/javascript", src="../js/parallax.js")
+script(type="text/javascript", src="../js/jquery.fadethis.js")
+script(type="text/javascript", src="../js/jquery.drawsvg.js")
+script(src="/js/plugins.min.js")
 script(type="text/javascript", src="../js/custom.js")
+
 
 script(src='https://cdn.slaask.com/chat.js')
 script(type="text/javascript").
-  _slaask.init('a2185cf7997e55eb9484fc90fe78066a');
+	_slaask.init('a2185cf7997e55eb9484fc90fe78066a');
 
+script(type='text/javascript').
+	$('.parallax-container').parallax({imageSrc: '../img/slide-parallax-webfac2.jpg'});
+
+script.
+	$(window).fadeThis({reverse:false,distance:100});
+
+script.
+	$(document).ready(function() {
+	setTimeout(function(){
+		$('body').addClass('loaded');
+		$('h1').css('color','#222222');
+	}, 3000);
+	});
 
 if _path == "/recent-blog.html"
-  script(type='text/javascript').
-    $(document).ready(function () {
-    size_li = $(".post-article").size();
-    x=3;
-    $('.post-article:lt('+x+')').show();
-    $('#loadMore').click(function () {
-    x= (x+5 <= size_li) ? x+5 : size_li;
-    $('.post-article:lt('+x+')').show();
-    });
-    $('#showLess').click(function () {
-    x=(x-5<0) ? 3 : x-5;
-    $('.post-article').not(':lt('+x+')').hide();
-    });
-    });
+	script(type='text/javascript').
+		$(document).ready(function () {
+		size_li = $(".post-article").size();
+		x=3;
+		$('.post-article:lt('+x+')').show();
+		$('#loadMore').click(function () {
+		x= (x+5 <= size_li) ? x+5 : size_li;
+		$('.post-article:lt('+x+')').show();
+		});
+		$('#showLess').click(function () {
+		x=(x-5<0) ? 3 : x-5;
+		$('.post-article').not(':lt('+x+')').hide();
+		});
+		});
 
 if _path == "/pricing.html"
-  script(type='text/javascript').
-      $(document).ready(function(){
-      $('.Custom-Domain').popover({
-      content : 'Move your domain to Webfactories. Contact <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> for more details',
-      html: true
-      });
-      $('.Domain-Aliases').popover({
-      content : 'Point more domains to one website. Contact <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> for more details',
-      html: true
-      });
-      $('.E-mail-Support').popover({
-      content : 'Sent your request to <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> and we will get back to you within 24 hours',
-      html: true
-      });
-      $('.Ticketing-Support').popover({
-      content : 'Request new builds and other related service issues to <a target="_blank" href="http://helpdesk.webriq.com/en">helpdesk.webriq.com</a>',
-      html: true
-      });
-      $('[data-toggle="popover"]').popover();
-      $('body').on('click', function (e) {
-      $('.btn-plus-feature').each(function () {
-      //the 'is' for buttons that trigger popups
-      //the 'has' for icons within a button that triggers a popup
-      if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-      $(this).popover('hide');
-      }
-      });
-      });
-      })
+	script(type='text/javascript').
+			$(document).ready(function(){
+			$('.Custom-Domain').popover({
+			content : 'Move your domain to Webfactories. Contact <a href="mailto:support@helpdesk.webriq.com">support@helpdesk.webriq.com</a> for more details',
+			html: true
+			});
+			$('.subDomain').popover({
+			content : 'Subdomain on <a href="https://www.webriq.com/">www.webriq.com</a>',
+			html: true
+			});
+			$('.E-mail-Support').popover({
+			content : 'Sent your request to <a href="mailto:support@webriq.com">support@webriq.com</a> and we will get back to you within 24 hours',
+			html: true
+			});
+			$('.Ticketing-Support').popover({
+			content : 'Request new builds and other related service issues to <a target="_blank" href="http://helpdesk.webriq.com/en">helpdesk.webriq.com</a>',
+			html: true
+			});
+			$('[data-toggle="popover"]').popover();
+			$('body').on('click', function (e) {
+			$('.btn-plus-feature').each(function () {
+			//the 'is' for buttons that trigger popups
+			//the 'has' for icons within a button that triggers a popup
+			if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+			$(this).popover('hide');
+			}
+			});
+			});
+			})

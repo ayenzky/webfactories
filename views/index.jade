@@ -1,278 +1,583 @@
 extends layout
 
 block content
-  .trends
-    .container
-      .subtitle.text-center.mb-30
-        h1.title Websites Design Trends for 2016
-      .row
-        .col-md-4.col-sm-6
-          .boxes
-            .boxes-img.text-center
-              img(src="../img/trend1.png")
-            .boxes-title
-              h4 The Browser Is Growing Up
-            .boxes-body
-              p The modern browser is an operating system in its own right, no longer merely displaying documents downloaded from the web, but capable of running full­fledged web applications, and even handling peer­to- peer connections to other browsers. The need for database driven websites is evaporating quickly. Many features that required dynamic code running on a single server can now be move to the browser and the client. For website builds is a sort of back to the future.
-        .col-md-4.col-sm-6
-          .boxes
-            .boxes-img.text-center
-              img(src="../img/trend2.png")
-            .boxes-title
-              h4 Unique Way of Using the Grid
-            .boxes-body
-              p 
-                a(href='http://www.curiousspace.com/', target='_blank') Curious Space
-                |  ’s website is a great example of adding a pinch of organic freedom to an ordered grid layout. You’ll quickly notice the photos of this website stacked on top of each other. Stacking them isn’t a problem, as when a user rolls over on an image, the Z-index of the selected image shifts, so it is pushed to the top of the pile of photos. Upon scroll, the haphazard arrangement of their logo falls into place to spell out their company name.
-        .col-md-4.col-sm-6
-          .boxes
-            .boxes-img.text-center
-              img(src="../img/trend3.png")
-            .boxes-title
-              h4 Custom-Drawn Illustrations
-            .boxes-body
-              p
-                | We’ve all thought it - “Why should I draw another [name of object] icon, when I can just grab it off an already existing vector pack from the web?” This line of thinking does save time and budget constraints, but how about integrating custom-made illustrations, or other artwork into the project budget in the first place? Sites like 
-                a(href='http://creativefreedomguide.com/', target='_blank') Creative Freedom Guide
-                | , 
-                a(href='http://forbetter.coffee/', target='_blank') For Better Coffee
-                  | , 2015 
-                a(href='http://2015.dconstruct.org/', target='_blank') DConstruct Conference
-                | , or 
-                a(href='http://education.iceandsky.com/', target='_blank') Ice & Sky
-                |  all integrate custom-made / hand-drawn illustration work that greatly aid in telling their story and leaving a memorable experience for their users.
-        .col-md-4.col-sm-6
-          .boxes.trends-bottom
-            .boxes-img.text-center
-              img(src="../img/trend4.png")
-            .boxes-title
-              h4 Semi-flat Design
-            .boxes-body
-              p Flat design has slowly morphed over the past few years to semi-flat design. After Windows launched its Metro style, the design world became inundated with this trend. Unfortunately, this style did come with its usability pitfalls. This trend has slowly morphed into semi-flat design, largely in part due to both Android’s and Apple’s releases using this type of style. By integrating depth and dimension through the use of subtle shadows, card / tile concepts, and well-thought out transitions to help guide and orient users, semi-flat design aims to eliminate the problems that flat design had created.
-        .col-md-4.col-sm-6
-          .boxes.trends-bottom
-            .boxes-img.text-center
-              img(src="../img/trend5.png")
-            .boxes-title
-              h4 Responsive Web Design
-            .boxes-body
-              p Let’s face it, after the implementation of RWD, there was no turning back. There will only be more devices sold on the market, so embracing and integrating responsive practices on websites will make the web sphere a better place for all.
-        .col-md-4.col-sm-6
-          .boxes.trends-bottom
-            .boxes-img.text-center
-              img(src="../img/trend6.png")
-            .boxes-title
-              h4 Lazy Loading
-            .boxes-body
-              p On websites that feed content continuously, Lazy Loading aids in viewing immediate website content without waiting for the entire page to load. This is especially helpful for websites that are highly visual, such as Facebook, Instagram, or Pinterest. In a society where information is constantly being fed into our lives, lazy loading helps to simplify viewing of said content by loading only small chunks at a time.
-  #our-approach.our-approach
-    .container
-      .row
-        .col-md-6.text-center
-          img(class="img-responsive", src='../img/our-approach-static.jpg', alt='', width='541', height='228')
-        .col-md-6
-          .title-holder
-            h2.title- Our Approach
-            h3.sub-title Static is the new Dynamic 
-          .text-body
-            p Static websites are cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes.
-          .btn-learn
-            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
-  #web-services.web-services
-    .container
-      .row
-        .col-md-6.text-center
-          ul.list-.icon-static
-            li
-              p
-                em
-                  img(src='../img/superfast-white.png', alt='')
-                  br
-                  | Superfast
-            li
-              p
-                em
-                  img(src='../img/security-white.png', alt='')
-                  br
-                  | Secure
-            li
-              p
-                em
-                  img(src='../img/simple.png', alt='')
-                  br
-                  | Simple
-            li
-              p
-                em
-                  img(src='../img/cost-effective.png', alt='')
-                  br
-                  | Cost-effective
-        .col-md-6
-          .title-holder
-            h2.title-.white-text Web Services
-            h3.sub-title.mb-10 Static Websites
-          .text-body
-            ul.list-
-              li
-                em.fa.fa-check-circle-o   
-                | Custom Designed Templates
-              li
-                em.fa.fa-check-circle-o   
-                | Responsive Templates
-              li
-                em.fa.fa-check-circle-o   
-                | Hosted on a Superfast CDN Network
-              li
-                em.fa.fa-check-circle-o   
-                | Back-up and Restore
-              li
-                em.fa.fa-check-circle-o   
-                | Unlimited Content Management Support
-          .btn-learn
-            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/static-websites') Learn More
-  #web-services-commerce.web-services-commerce
-    .container
-      .row
-        .col-md-6.text-center
-          img(class="img-responsive", src='../img/laptop-ecom-bg.png', alt='')
-        .col-md-6
-          .title-holder
-            h2.title-.white-text Web Services
-            h3.sub-title.mb-10 Responsive E-commerce Websites
-          .text-body
-            ul.list-
-              li
-                em.fa.fa-check-circle-o   
-                | For use on desktops, tablets and smartphones
-              li
-                em.fa.fa-check-circle-o   
-                | Fast and Secure
-              li
-                em.fa.fa-check-circle-o   
-                | Quick & Easy Check Out Process
-              li
-                em.fa.fa-check-circle-o   
-                | Enterprise Grade Features
-              li
-                em.fa.fa-check-circle-o   
-                | Innovative technologies
-          .btn-learn.color-fff
-            a.btn.btn-primary.btn-lg.eq-ui-waves-light(href='/responsive-e-commerce-platform') Learn More
-            |    or   
-            a.sm-btn.btn.btn-primary.btn-lg.eq-ui-waves-light(href='http://app.webriq.com/sites/create', target='_blank') Request your own Shopping cart
-          // <div class="btn-learn color-fff"><a href="/responsive-e-commerce-platform">Learn More</a>&nbsp; &nbsp;or &nbsp;&nbsp;<a href="#" data-toggle="modal" data-target="#myModal">Request your own Shopping cart</a></div>
-  #projects.portfolio
-    .container
-      .subtitle.text-center
-        h1.title Our Projects
-      .row.mt-40
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/afs-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/afs-resize1.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/es-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/es-resize1.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/sofia-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/sofia-resize1.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/buzzin-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/buzzin-resize1.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/tribal-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/tribal-resize1.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/gundeals.jpg', data-lightbox='set')
-              img(title='', src='../img/gundeals-thumb.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/sbr.jpg', data-lightbox='set')
-              img(title='', src='../img/sbr-thumb.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/tymad.jpg', data-lightbox='set')
-              img(title='', src='../img/tymad-thumb.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/gitek-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/gitek-resize1.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/advance-resize.jpg', data-lightbox='set')
-              img(title='', src='../img/advance-resize1.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/blind-resize.jpg', data-lightbox='set')
-              img(src='../img/blind-resize1.jpg', alt='', width='350', height='221')
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/downs.jpg', data-lightbox='set')
-              img(src='../img/downs-thumb.jpg', alt='', width='350', height='221')
-        .col-md-4.hidden-xs.hidden-sm  
-        .col-md-4.col-sm-6.text-center
-          .span3
-            a.example-image-link(href='../img/healthport.jpg', data-lightbox='set')
-              img(src='../img/healthport-thumb.jpg', alt='', width='350', height='221')
-        .col-md-4.hidden-xs.hidden-sm  
-  #blogs.blogs
-    .container
-      .subtitle.mb-40
-            h1.title.mt-0 Blogs
-      .row
-        .col-md-6.blog-left
-          h2.mt-0.title-border Recent Blogs
-          #home-article
-            each post in posts.orderBy('date', 'desc').slice(0,2)
-              article.post-article
-                .article-banner
-                  a(href=post.permalink)
-                    img(src= post.banner)
-                .article-title
-                  h3
-                    a(href=post.permalink)= post.title
-                .article-publish
-                  ul
-                    li By
-                      span.author-name= post.writer
-                    li Posted
-                      span= dateFormat(post.date, 'LL')
-                .article-body
-                  p= post.shortdesc
-                .article-more
-                  a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
-          .more-entries.mt-20
-            a(href="/recent-blog") More Entries
-        .col-md-6.blog-right.sm-mt
-          .newsletter
-            h2.title-border Join Our Newsletter
-            p.mb-30
-              | Subcribes to our newsletter by entering your email below to keep updated to our latest news and information.
-            #mc_embed_signup.button-primary
-              form#mc-embedded-subscribe-form.validate.eq-ui-input.validate(action='//webfactories.us3.list-manage.com/subscribe/post?u=8cb5583254702490f52f894ff&id=f81bd08495', method='post', name='mc-embedded-subscribe-form', novalidate='', target='_blank')
-                .eq-ui-form-group.eq-ui-input-field
-                  input#email_val.eq-ui-input.validate(name='EMAIL', required='', type='email', value='')
-                  label(for='email_val', data-error='wrong', data-success='right') Email
-                div(style='position: absolute; left: -5000px;')
-                  input(name='b_8cb5583254702490f52f894ff_f81bd08495', type='text', value='')
-                .clear
-                  .eq-ui-form-group.eq-ui-input-field.form-btn
-                    input#mc-embedded-subscribe.button.btn.btn-primary.eq-ui-waves-light(name='subscribe', type='submit', value='Subscribe')
-          .social-media.mt-50
-            ul.social-list
-              li
-                a.fb(href="https://www.facebook.com/WebFactories/", target="_blank")
-                  i.fa.fa-facebook(aria-hidden='true')
-              li
-                a.twitter(href="https://twitter.com/Webfactories", target="_blank")
-                  i.fa.fa-twitter(aria-hidden='true')
-              li
-                a.pinterest(href="http://pinterest.com/webfactories", target="_blank")
-                  i.fa.fa-pinterest-p(aria-hidden='true')
 
-            
+  #trendssec.trends.trends2.gray-section
+    .container
+      .col-md-12.space-auto.text-center.mb-30
+        h1.heading-1 Design and Web Trends for 2017
+      .col-xs-3.col-md-2.space-auto
+        span.hr-line
+      .row.design-trends
+        .col-lg-4.col-md-4.col-sm-6
+          .boxes.trends123.trend1
+            .boxes-img.text-center
+              //- img(src="../img/trends/new/adopt.png")
+              svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='120px', height='120px', viewbox='0 0 120 120', enable-background='new 0 0 120 120', xml:space='preserve')
+                g#adopt-a-mobile
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M68.55,74.049')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M103.4,98.924\
+                  c0.959,3.018-0.709,6.243-3.729,7.202L61.32,118.32c-3.021,0.959-6.245-0.711-7.205-3.729L24.863,22.577\
+                  c-0.96-3.019,0.709-6.245,3.729-7.205L66.943,3.18c3.02-0.96,6.244,0.709,7.205,3.728L103.4,98.924z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M97.602,92.239L54.99,105.787L29.406,25.312\
+                  l42.612-13.547L97.602,92.239z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M57.812,11.266c0.16,0.503-0.118,1.041-0.622,1.2\
+                  l-15.272,4.855c-0.503,0.16-1.041-0.118-1.201-0.621l0,0c-0.16-0.503,0.119-1.041,0.621-1.201l15.274-4.855\
+                  C57.114,10.485,57.651,10.763,57.812,11.266L57.812,11.266z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M81.266,104.123\
+                  c0.531,1.676-0.396,3.469-2.072,4.001c-1.678,0.534-3.469-0.394-4.002-2.069c-0.534-1.678,0.394-3.472,2.07-4.005\
+                  C78.939,101.518,80.73,102.445,81.266,104.123z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M64.822,75.9l-6.087,6.521l-2.991-8.403\
+                  l6.931-33.413l9.078,1.883L64.822,75.9z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M72.214,40.266l-9.077-1.883l0.581-2.809\
+                  c0,0,0.853-0.918,1.242-0.949c1.853-0.146,5.347,0.365,6.793,1.313c0.386,0.252,1.043,1.52,1.043,1.52L72.214,40.266z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M55.824,73.631l9.078,1.885')
+
+            .boxes-title
+              h4 Adopt a mobile-first<br> approach
+            .boxes-body
+              p With mobile-phones now officially named as the primary devices used for browsing the web,  more companies are realising the importance of having a site that effectively delivers content on a smaller screen. Content is designed to fit on mobile and smaller screened devices first, then you work up towards the larger-screened devices.
+        .col-lg-4.col-md-4.col-sm-6
+          .boxes.trends123.trend2
+            .boxes-img.text-center
+              //- img(src="../img/trends/new/wider-responsive.png")
+              svg#responsive(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='120px', height='120px', viewbox='0 0 120 120', enable-background='new 0 0 120 120', xml:space='preserve')
+                g#wider-implementation
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M20.165,51.375V20.208c0-2.209,1.791-4,4-4h90.375\
+                  c2.209,0,4,1.791,4,4V79.25c0,2.209-1.791,4-4,4H48.387')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M118.539,73.773H49.113')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M20.165,24h98.375')
+                  path(fill='none', stroke='#03A9F4', stroke-miterlimit='10', d='M113.266,78.875c0,0.896-0.728,1.625-1.625,1.625\
+                  c-0.896,0-1.625-0.729-1.625-1.625s0.729-1.625,1.625-1.625C112.538,77.25,113.266,77.979,113.266,78.875z')
+                  path(fill='none', stroke='#03A9F4', stroke-miterlimit='10', d='M33.75,102.406c0,0.896-0.728,1.625-1.625,1.625\
+                  s-1.625-0.729-1.625-1.625s0.728-1.625,1.625-1.625S33.75,101.51,33.75,102.406z')
+                  path(fill='none', stroke='#03A9F4', stroke-miterlimit='10', d='M16.497,102.406c0,0.896-0.728,1.625-1.625,1.625\
+                  s-1.625-0.729-1.625-1.625s0.728-1.625,1.625-1.625S16.497,101.51,16.497,102.406z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M73.663,92.375h-8.375V83.25h8.375V92.375z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M83.327,95.75H55.625v-3.375h27.702V95.75z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M15.5,63.688v-8.313c0-2.209,1.791-4,4-4h25.25\
+                  c2.209,0,4,1.791,4,4v47c0,2.209-1.791,4-4,4H19.5')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='M29.5,54.125h5.25')
+                  line(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', x1='12.028', y1='66.625', x2='17.278', y2='66.625')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='M24.872,102.375\
+                  c0,2.209-1.791,4-4,4h-12c-2.209,0-4-1.791-4-4V68.063c0-2.209,1.791-4,4-4h12c2.209,0,4,1.791,4,4V102.375z')
+                  g
+                    g
+                      line(fill='none', stroke='#03A9F4', stroke-miterlimit='10', x1='60.975', y1='56.512', x2='77.979', y2='39.509')
+                      g
+                        polygon(fill='#03A9F4', points='65.163,56.951 65.135,56.15 61.191,56.295 61.336,52.353 60.536,52.324 60.362,57.125      ')
+                      g
+                        polygon(fill='#03A9F4', points='78.416,43.697 77.616,43.669 77.762,39.727 73.818,39.871 73.79,39.071 78.592,38.896      ')
+                  g
+                    g
+                      g
+                        line(fill='none', stroke='#03A9F4', stroke-miterlimit='10', x1='38.963', y1='71.805', x2='28.537', y2='82.23')
+                        g
+                          polygon(fill='#03A9F4', points='35.299,71.42 35.324,72.12 38.773,71.994 38.647,75.443 39.347,75.469 39.5,71.268         ')
+                        g
+                          polygon(fill='#03A9F4', points='28.152,78.566 28.853,78.591 28.726,82.04 32.176,81.914 32.201,82.614 28,82.768        ')
+                  g
+                    g
+                      g
+                        line(fill='none', stroke='#03A9F4', stroke-miterlimit='10', x1='11.156', y1='87.872', x2='18.617', y2='80.412')
+                        g
+                          polygon(fill='#03A9F4', points='14.82,88.257 14.795,87.557 11.346,87.684 11.472,84.232 10.772,84.208 10.62,88.409         ')
+                        g
+                          polygon(fill='#03A9F4', points='19.001,84.076 18.301,84.052 18.427,80.604 14.978,80.729 14.953,80.027 19.154,79.875         ')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='M4.872,99.125h20')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='M4.872,69.652h20')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M15.758,57.125H48.75')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M22.719,99.125H48.75')
+            .boxes-title
+              h4 Wider implementation of Responsive Design
+            .boxes-body
+              p Very much in the same way as mobile first, the number of businesses that will implement a responsive design will still grow substantially. It keeps customers happy with an all-important user experience and it keeps Google search happy for the keyword rankings.
+        .col-lg-4.col-md-4.col-sm-6
+          .boxes.trends-bottom.trend5
+            .boxes-img.text-center
+              //- img(src="../img/trends/new/gridui.png")
+              svg#Layer_3(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='120px', height='120px', viewbox='0 0 120 120', enable-background='new 0 0 120 120', xml:space='preserve')
+                g#more-card-and-grid
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M107.75,99c0,4.418-3.582,8-8,8h-77\
+                  c-4.418,0-8-3.582-8-8V23c0-4.418,3.582-8,8-8h77c4.418,0,8,3.582,8,8V99z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M67.035,61.167c0,3.075-2.492,5.567-5.567,5.567\
+                  S55.9,64.242,55.9,61.167s2.492-5.567,5.567-5.567S67.035,58.092,67.035,61.167z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M73.785,61.166\
+                  c0,6.805-5.514,12.318-12.318,12.318c-6.803,0-12.317-5.514-12.317-12.318c0-6.804,5.514-12.317,12.317-12.317\
+                  C68.271,48.849,73.785,54.362,73.785,61.166z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M98.371,61c0,20.503-16.618,37.121-37.122,37.121\
+                  c-20.503,0-37.12-16.618-37.12-37.121c0-20.505,16.617-37.121,37.12-37.121C81.753,23.879,98.371,40.495,98.371,61z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M38.5,15.5V107')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M61.468,15.5V107')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M84.5,15.5V107')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M15.5,38.5h92')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M107.5,61.167h-92')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M15.5,84.5h92')
+            .boxes-title
+              h4 More card and<br> grid UI
+            .boxes-body
+              p Cards, made famous by Pinterest are UIs where pieces of content (text, imagery, video) are broken down into individual ‘cards’ which the user is able to navigate through. Card UIs allow brands to show larger amounts of content on a screen at once. Cards tie in nicely with Mobile-First design and Responsive design with gesture based swiping.
+
+        .col-lg-4.col-md-4.col-sm-6
+          .boxes.trends-bottom.trend4
+            .boxes-img.text-center
+              //- img(src="../img/trends/new/animation-advance.png")
+              svg#Layer_3(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='120px', height='120px', viewbox='0 0 120 120', enable-background='new 0 0 120 120', xml:space='preserve')
+                g#animation-advance
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M96,99.004c0,4.419-3.582,8-8,8H18.5\
+                  c-4.418,0-8-3.581-8-8V47.283c0-4.418,3.582-8,8-8H88c4.418,0,8,3.582,8,8V99.004z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M96.188,61.939l15.708-9.115v40.638l-15.57-8.989')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M82.654,21.824\
+                  c0,7.084-5.744,12.828-12.827,12.828C62.743,34.652,57,28.908,57,21.824c0-7.084,5.743-12.828,12.827-12.828\
+                  C76.91,8.996,82.654,14.74,82.654,21.824z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M72.988,21.824c0,1.746-1.416,3.162-3.161,3.162\
+                  c-1.746,0-3.161-1.416-3.161-3.162c0-1.746,1.415-3.161,3.161-3.161C71.572,18.663,72.988,20.078,72.988,21.824z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M48.661,21.824\
+                  c0,7.084-5.744,12.828-12.827,12.828c-7.084,0-12.827-5.744-12.827-12.828c0-7.084,5.743-12.828,12.827-12.828\
+                  C42.917,8.996,48.661,14.74,48.661,21.824z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M38.995,21.824c0,1.746-1.416,3.162-3.161,3.162\
+                  c-1.746,0-3.161-1.416-3.161-3.162c0-1.746,1.415-3.161,3.161-3.161C37.579,18.663,38.995,20.078,38.995,21.824z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M44.66,58.205l25.874,14.938L44.66,88.083V58.205z\
+                  ')
+            .boxes-title
+              h4 Animations<br> advance
+            .boxes-body
+              p Story-telling and personality is something more and more brands are working on to capture their user’s attention, and animation is starting to play a bigger role in this. Animations come in all different shape, sizes and styles, and can all serve different purposes. Animations can range from tiny loading-devices which entertains the user while waiting for content to load, to an interesting hover-state used as a UX device to show a user they’re hovering over a link.
+
+        .col-lg-4.col-md-4.col-sm-6
+          .boxes.trends123.trend3
+            .boxes-img.text-center
+              //- img(src="../img/trends/new/focus-originality.png")
+              svg#Layer_3(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='120px', height='120px', viewbox='0 0 120 120', enable-background='new 0 0 120 120', xml:space='preserve')
+                g#focus-originality
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M55.866,99.455c-0.173,0.053-0.343,0.105-0.514,0.157c-0.388-0.472-0.83-0.911-1.155-1.423c-0.961-1.521-1.855-3.084-2.815-4.607\
+                  c-1.483-2.352-3.664-3.034-5.766-1.842c-2.004,1.137-2.576,3.361-1.313,5.74c3.28,6.18,6.595,12.341,9.988,18.459\
+                  c0.328,0.592,1.296,1.174,1.973,1.18c9.209,0.072,18.421,0.059,27.633-0.011c0.503-0.004,1.307-0.603,1.451-1.081\
+                  c1.658-5.428,2.981-10.914,2.815-16.669c-0.07-2.463,0.122-4.936,0.243-7.401c0.103-2.058-0.261-3.926-2.257-4.948\
+                  c-1.978-1.017-3.678-0.228-5.179,1.196c-1.6-4.752-5.081-5.464-8.287-1.411c-0.062-2.228-0.92-3.811-3.085-4.385\
+                  c-2.16-0.573-3.722,0.46-5.183,2.546c0-1.254,0-1.919,0-2.584c-0.002-5.14,0.021-10.279-0.017-15.418\
+                  c-0.022-3.152-2.075-4.98-4.962-4.523c-2.11,0.333-3.321,2.002-3.326,4.756c-0.022,10.079-0.01,20.158-0.025,30.236\
+                  C56.085,98.1,55.942,98.777,55.866,99.455z')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='\
+                  M32.231,12.503c0,0,26.554-17.437,53.86,0')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='\
+                  M21.267,38.353c0,0,13.419-21.162,40.562-21.162c27.141,0,35.037,19.925,35.037,19.925')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='\
+                  M30.097,81.352c0,0-12.11-23.36,4.904-42.524c17.014-19.163,47.057-10.41,55.693,8.888c0,0,8.145,19.811-1.925,24.622\
+                  c-3.683,1.761-16.379,3.202-16.051-6.392c0.477-13.963-7.684-19.639-17.554-15.197c-8.862,3.988-8.617,21.327,0.599,32.891')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='\
+                  M47.405,91.179c-2.994-3.448-7.16-9.494-9.201-18.116c-5.885-24.863,7.462-34.71,19.416-34.71c25.042,0,25.034,25.704,25.034,25.704\
+                  ')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-linecap='round', stroke-miterlimit='10', d='\
+                  M85.03,81.498c-10.75,1.688-17-1-20.611-4.929')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M55.969,66.554c-1.599-1.17-2.637-3.061-2.637-5.193c0-3.551,2.879-6.43,6.43-6.43s6.43,2.879,6.43,6.43\
+                  c0,1.646-0.619,3.148-1.637,4.285')
+
+            .boxes-title
+              h4 Focus on <br>originality
+            .boxes-body
+              p Customers and users today seek authenticity from the brands they use, and stock pictures of creatives sat around a screen, or business men smiling just won’t cut it anymore. In order for a brand to really strike a connection with it’s audience, they’ll need carefully considered and completely bespoke visuals which are more representative of who they really are. Bespoke illustrations, big and beautiful typography, and authentic photography are becoming real design differentiators.
+        .col-lg-4.col-md-4.col-sm-6
+          .boxes.trends-bottom.trend6
+            .boxes-img.text-center
+              //- img(src="../img/trends/new/innovative-scrolling.png")
+              svg#Layer_3(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='120px', height='120px', viewbox='0 0 120 120', enable-background='new 0 0 120 120', xml:space='preserve')
+                g#innovative-scrolling
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M72.685,91.058c-0.084,0.16-0.168,0.317-0.252,0.475c-0.607-0.059-1.23-0.057-1.822-0.189c-1.756-0.396-3.492-0.868-5.25-1.267\
+                  c-2.711-0.614-4.736,0.445-5.379,2.774c-0.613,2.221,0.557,4.198,3.131,4.987c6.689,2.05,13.391,4.063,20.115,5.989\
+                  c0.65,0.187,1.746-0.086,2.23-0.561c6.563-6.461,13.066-12.984,19.531-19.547c0.352-0.358,0.498-1.35,0.262-1.791\
+                  c-2.666-5.01-5.609-9.825-9.797-13.777c-1.791-1.691-3.403-3.576-5.062-5.405c-1.383-1.527-2.96-2.592-5.095-1.903\
+                  c-2.117,0.68-2.762,2.439-2.816,4.508c-4.491-2.229-7.456-0.271-6.857,4.862c-1.617-1.532-3.344-2.044-5.281-0.919\
+                  c-1.934,1.122-2.307,2.957-1.865,5.465c-0.887-0.887-1.355-1.357-1.826-1.827c-3.637-3.633-7.254-7.284-10.915-10.891\
+                  c-2.244-2.213-4.988-2.054-6.707,0.31c-1.257,1.729-0.933,3.765,1.013,5.715c7.109,7.144,14.246,14.262,21.361,21.398\
+                  C71.882,89.944,72.259,90.524,72.685,91.058z')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M49.493,67.721c-1.959,0.304-4.029-0.3-5.538-1.808c-2.511-2.511-2.511-6.582,0-9.094c2.511-2.51,6.582-2.51,9.094,0\
+                  c1.164,1.165,1.788,2.664,1.872,4.188')
+                  g
+                    g
+                      g
+                        line(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', x1='35.967', y1='48.25', x2='35.967', y2='20.806')
+                        g
+                          polygon(fill='#03A9F4', points='38.959,21.681 35.967,16.5 32.976,21.681         ')
+                  g
+                    g
+                      g
+                        line(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', x1='35.801', y1='71.584', x2='35.801', y2='99.028')
+                        g
+                          polygon(fill='#03A9F4', points='32.81,98.152 35.801,103.334 38.793,98.152         ')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M26.604,25.833c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5s1.567-3.5,3.5-3.5S26.604,23.9,26.604,25.833z')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M26.604,49.111c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5s1.567-3.5,3.5-3.5S26.604,47.178,26.604,49.111z')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M26.604,72.389c0,1.934-1.567,3.5-3.5,3.5s-3.5-1.566-3.5-3.5c0-1.932,1.567-3.5,3.5-3.5S26.604,70.457,26.604,72.389z')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M26.604,95.667c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5s1.567-3.5,3.5-3.5S26.604,93.734,26.604,95.667z')
+                  path(fill-rule='evenodd', clip-rule='evenodd', fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='\
+                  M107.854,86.8l7.231,7.381l-18.751,18.373l-7.231-7.381L107.854,86.8z')
+            .boxes-title
+              h4 Innovative scrolling<br> and parallax
+            .boxes-body
+              p Scrolling, once reserved for getting from top of a page to the bottom, is being used in more creative capacities to deliver content online. Scrolling is a versatile mechanic which can work great with all varieties of content delivery. It works with video based content, where large full screen videos play and pause as the user scrolls, as well as static content, which can animate, move, or change depending on the users input.
+        .col-lg-4.col-md-4.col-sm-6
+          .boxes.trends-bottom.trend7
+            .boxes-img.text-center
+              //- img(src="../img/trends/new/must2017.png")
+              svg#Layer_2(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='120px', height='120px', viewbox='0 0 120 120', enable-background='new 0 0 120 120', xml:space='preserve')
+                g#must-have-for-2017
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M48.076,87.889l-5.385-7.796l-7.795-5.385\
+                  c0,0,2.612-3.358,6.539-8.138c1.199-1.46,2.52-3.051,3.926-4.719c8.303-9.85,19.596-22.401,26.312-26.346\
+                  c3.746-2.202,16.567-4.905,18.539-2.933c2.124,2.124-0.73,14.793-2.932,18.541c-3.956,6.734-16.565,18.07-26.427,26.379\
+                  c-1.67,1.407-4.721,3.925-4.721,3.925L48.076,87.889z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M78.028,51.126c-1.759,1.759-4.612,1.759-6.371,0\
+                  c-1.759-1.759-1.759-4.611,0-6.371c1.76-1.759,4.612-1.76,6.371,0C79.787,46.514,79.788,49.367,78.028,51.126z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M34.895,74.708l-9.304-0.573l7.458-15.499\
+                  l17.496-2.819L34.895,74.708z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M66.897,72.212l-2.818,17.496L48.58,97.167\
+                  l-0.575-9.305L66.897,72.212z')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M39.758,83.025l-8.09,8.09')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M41.269,87.771L30.851,98.188')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M35.192,81.309l1.93-1.931')
+                  path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M110.76,60.548\
+                  c0,28.107-22.785,50.892-50.891,50.892S8.979,88.655,8.979,60.548c0-28.105,22.785-50.889,50.89-50.889S110.76,32.443,110.76,60.548\
+                  z')
+                  g
+                    g
+                      g
+                        path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M116.012,66.195\
+                        c-2.791,28.292-26.654,50.391-55.678,50.391c-17.125,0-32.454-7.694-42.716-19.813c-0.244-0.289-0.486-0.581-0.724-0.875')
+                        g
+                          polygon(fill='#03A9F4', points='19.09,95.013 14.929,93.334 15.555,97.777        ')
+                  g
+                    g
+                      g
+                        path(fill='none', stroke='#03A9F4', stroke-width='1.5', stroke-miterlimit='10', d='M4.386,60.636\
+                        c0-30.896,25.049-55.949,55.948-55.949c18.283,0,34.52,8.772,44.73,22.335')
+                        g
+                          polygon(fill='#03A9F4', points='102.842,27.811 106.932,29.656 106.485,25.191        ')
+
+            .boxes-title
+              h4 Must have for<br> 2017
+            .boxes-body
+              p As a business you may not be ready to implement all the trends mentioned. But what you must have going in to next year is a super fast, SSL secured, reliable and scalable website that is designed for Mobile-First. If not, your customers and Google will leave you behind.
+
+
+  #web-services.gray-section
+    .container.responsive-web
+      .row.text-center
+        .col-md-12.space-auto.text-center.mb-30
+          h1.heading-1 Web Services
+        .col-xs-3.col-md-2.space-auto
+          span.hr-line
+        .col-md-7.space-auto
+          h4.light-text
+            | Responsive Websites
+      .row
+        .col-sm-6.col-md-7.col-left
+          .row.mb-40
+            .col-md-3
+              img(src="../img/repwebsite/superfast.png")
+            .col-md-9
+              h3.heading-3.light-text Superfast
+              p.light-text
+                | Your site will be served through a Content Delivery Network instead of a single server. That means much lower latency, much faster downloads and a near 100% uptime. If one of our servers goes down, another server takes over instantaneously.
+          .row.mb-40
+            .col-md-3
+              img(src="../img/repwebsite/security.png")
+            .col-md-9
+              h3.heading-3.light-text Security
+              p.light-text
+                | Your site has no movable parts, no database to connect to or scripts that need to be executed and there is no way to inject malware. Malware, outdated scripts, denial of service attacks are of the past.
+          .row.mb-40
+            .col-md-3
+              img(src="../img/repwebsite/simplicity.png")
+            .col-md-9
+              h3.heading-3.light-text Simplicity
+              p.light-text
+                | No need to optimize your website for faster database queries or faster downloads. When the website is build, it is build. Changes in the Template and the Content will automatically trigger a new build. The entire process takes no more then 20 seconds.
+          .row.mb-40
+            .col-md-3
+              img(src="../img/repwebsite/cost-effective.png")
+            .col-md-9
+              h3.heading-3.light-text Cost Effective
+              p.light-text
+                | It is cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes. If not money, it will save you a lot of headaches.
+
+        .col-sm-6.col-md-5.col-right.mb-50
+          #modern-tech
+            svg#phone(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='345px', height='667.093px', viewbox='0 0 345 667.093', enable-background='new 0 0 345 667.093', xml:space='preserve')
+              g(fill='none', stroke='#000000', stroke-width='1.5', stroke-miterlimit='10')
+                path(d='M179.316,44.951\
+                c-1.344,3.326-5.129,4.934-8.458,3.59c-3.324-1.344-4.932-5.129-3.588-8.456c1.342-3.326,5.129-4.933,8.457-3.59\
+                C179.053,37.84,180.66,41.625,179.316,44.951z')
+                path(d='M176.951,43.997\
+                c-0.816,2.021-3.115,2.997-5.137,2.18c-2.021-0.815-2.996-3.116-2.18-5.136c0.814-2.021,3.115-2.997,5.136-2.181\
+                C176.791,39.676,177.768,41.976,176.951,43.997z')
+                path(d='M128.912,63.041\
+                c-0.304,0.752-1.156,1.114-1.906,0.811s-1.112-1.157-0.809-1.908c0.303-0.75,1.155-1.111,1.905-0.809\
+                C128.854,61.438,129.215,62.292,128.912,63.041z')
+                path(d='M331.627,620.138c0,18.777-15.223,34-34,34H50.48\
+                c-18.777,0-34-15.223-34-34V43.515c0-18.778,15.223-34,34-34h247.146c18.777,0,34,15.222,34,34L331.627,620.138L331.627,620.138z')
+                path(d='M326.533,610.82c0,18.17-14.73,32.9-32.9,32.9\
+                H54.476c-18.171,0-32.901-14.73-32.901-32.9V52.834c0-18.171,14.73-32.901,32.901-32.901h239.157c18.17,0,32.9,14.73,32.9,32.901\
+                V610.82z')
+                path(d='M205.781,62.494c0-0.628-0.328-1.136-0.732-1.136\
+                h-61.035c-0.404,0-0.732,0.508-0.732,1.136l0,0c0,0.627,0.328,1.136,0.732,1.136h61.035C205.453,63.63,205.781,63.12,205.781,62.494L205.781,62.494z')
+                path(d='M319.195,575.517H28.912V79.974h290.283V575.517L319.195,575.517z')
+                path(d='M194.297,608.976c0,11.182-9.064,20.244-20.244,20.244s-20.242-9.063-20.242-20.244c0-11.18,9.063-20.242,20.242-20.242C185.232,588.734,194.297,597.796,194.297,608.976z')
+                path(fill='none', stroke='#000000', stroke-width='1.5', stroke-miterlimit='10', d='M198.421,608.976c0,13.457-10.909,24.367-24.366,24.367c-13.458,0-24.368-10.91-24.368-24.367s10.909-24.365,24.368-24.365\
+                C187.512,584.609,198.421,595.519,198.421,608.976z')
+                path(d='M326.58,592.509l4.094,1v-6.824l-4.094-1V592.509z')
+                path(d='M21.575,585.685l-4.094,1v6.824l4.094-1V585.685z')
+                path(d='M21.574,64.682l-4.094-1v6.825l4.094,1V64.682z')
+                path(d='M16.48,89.219l-2.953,1.661v25.734l2.953,1.771V89.219z')
+                path(d='M331.525,133.002l2.95-1.661V98.324l-2.95-1.772V133.002z')
+                path(d='M16.48,149.395l-2.953,1.661v37.577l2.953,1.772V149.395z')
+                path(d='M16.48,206.074l-2.953,1.661v37.577l2.953,1.772V206.074z')
+                path(d='M326.58,64.682l4.094-1v6.825l-4.094,1V64.682z')
+                path(fill='none', d='M174.055,587.111c12.078,0,21.868,9.789,21.868,21.867s-9.79,21.867-21.868,21.867\
+                c-12.077,0-21.868-9.789-21.868-21.867S161.978,587.111,174.055,587.111z')
+                path(d='M21.574,51.713c0,0,2.863-10.729,11.053-18.146\
+                c8.068-7.306,19.738-8.096,19.738-8.096h120.928h121.343c0,0,13.065,0.216,22.271,9.421c8.875,8.875,9.83,22.679,9.83,22.679')
+                path(d='M326.736,605.879c0,0-0.955,13.804-9.83,22.679\
+                c-9.205,9.206-22.271,9.422-22.271,9.422H173.293H52.365c0,0-11.669-0.79-19.738-8.096c-8.19-7.417-11.053-18.146-11.053-18.146')
+            img.modern.img-responsive(src='../img/web-services-responsive-website.png')
+
+      .row
+        .col-md-12.responsive-web
+          div.resp-learnmore
+            a.hvr-ripple-out(href='/static-websites')
+              img.img-responsive(src="../img/plus-icon-blue.png")
+
+  #web-services-commerce.gray-section
+    .container.web-services-commerce.mt-30.mb-10
+      .row.text-center
+        .col-md-12.space-auto.text-center.mb-30
+          h1.heading-1 Web Services
+        .col-xs-3.col-md-2.space-auto
+          span.hr-line
+        .col-md-7.space-auto
+          h4.light-text Responsive E-commerce Websites
+
+      .row.services.mt-40
+        .col-md-3.col-left.right-align.mb-40
+          h3.heading-3.thin-text Multi Platform
+          p.light-text For use on desktops, tablets and smarthphone
+          br
+          h3.heading-3.thin-text Fast & Secure
+          p.light-text Very secure solution with best industry practices and inline with PCI compliance
+        .col-md-6.col-middle
+          .col.mobile-tablet-container
+            img.tablet.img-responsive(src="../img/responsive/web-services-responsive-e-commerce.png")
+            svg#tablet(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='562.472px', height='648.895px', viewbox='0 0 562.472 648.895', enable-background='new 0 0 562.472 648.895', xml:space='preserve')
+              g#mobile-tablet
+                path(fill='none', stroke='#FFFFFF', stroke-width='1.5', stroke-miterlimit='10', d='M488.242,45.277\
+                c0-16.897-13.812-30.679-30.856-30.726l-346.662-0.134c-8.214-0.01-15.955,3.189-21.798,9.006\
+                c-5.841,5.814-9.063,13.518-9.071,21.683L79.64,585.69c0,16.891,13.801,30.681,30.77,30.724l346.744,0.148\
+                c8.208,0,15.949-3.198,21.804-9.017c5.841-5.814,9.058-13.517,9.069-21.689L488.242,45.277z M111.188,611.584L111.188,611.584\
+                v0.003V611.584z')
+                path(fill='none', stroke='#FFFFFF', stroke-width='1.5', stroke-miterlimit='10', d='M483.618,45.149l-0.207,538.368\
+                c0,15.521-12.72,28.224-28.238,28.216l-343.653-0.146c-15.525-0.003-28.221-12.706-28.208-28.229l0.207-538.367\
+                c0.012-15.526,12.707-28.222,28.244-28.215l343.648,0.146C470.928,16.921,483.636,29.627,483.618,45.149z')
+                g
+                  g
+                    path(fill='none', stroke='#FFFFFF', stroke-width='1.5', stroke-miterlimit='10', d='M474.189,551.928\
+                    c-0.001,0.779-0.639,1.417-1.418,1.416L94.913,553.19c-0.78-0.001-1.417-0.639-1.417-1.418l0.184-475.351\
+                    c0-0.78,0.638-1.417,1.418-1.417l377.862,0.155c0.779,0,1.417,0.638,1.416,1.418L474.189,551.928z')
+                path(fill='none', stroke='#FFFFFF', stroke-width='1.5', stroke-miterlimit='10', d='M299.741,580.932\
+                c-0.007,8.996-7.34,16.288-16.384,16.288c-9.05-0.014-16.378-7.301-16.372-16.292c0-8.994,7.342-16.281,16.385-16.281\
+                C292.407,564.652,299.748,571.947,299.741,580.932z')
+                path(fill='none', stroke='#FFFFFF', stroke-width='1.5', stroke-miterlimit='10', d='M287.678,48.526c0,2.33-1.889,4.219-4.22,4.219\
+                c-2.33,0-4.219-1.889-4.219-4.219s1.889-4.219,4.219-4.219C285.789,44.307,287.678,46.196,287.678,48.526z')
+                path(fill='none', stroke='#FFFFFF', stroke-width='1.5', stroke-miterlimit='10', d='M285.133,48.521c0,0.925-0.75,1.674-1.675,1.674\
+                c-0.924,0-1.674-0.75-1.674-1.674s0.75-1.674,1.674-1.674C284.383,46.846,285.133,47.596,285.133,48.521z')
+                path(fill='none', stroke='#FFFFFF', stroke-width='1.5', stroke-miterlimit='10', d='M272.897,48.82c0,0.837-0.684,1.517-1.532,1.517\
+                c-0.84,0-1.519-0.68-1.509-1.522c-0.01-0.84,0.669-1.525,1.509-1.525C272.214,47.292,272.897,47.974,272.897,48.82z')
+                path(fill='none', stroke='#FFFFFF', stroke-width='2', stroke-miterlimit='10', d='M288.397,584.711c0,1.205-0.57,2.184-1.749,2.184\
+                h-7.116c-1.179,0-2.135-0.979-2.135-2.184v-7.278c0-1.205,0.956-1.538,2.135-1.538h7.116c1.179,0,1.749,0.333,1.749,1.538V584.711z\
+                ')
+
+            .services-icons
+              ul
+                li
+                  img.img-responsive(src="img/responsive/web-services-responsive-ecommerce-multi-platform.png", alt="")
+                li
+                  img.img-responsive(src="img/responsive/web-services-responsive-quick-and-easy-process.png", alt="")
+                li
+                  img.img-responsive(src="img/responsive/web-services-responsive-fast-and-secure.png", alt="")
+                li
+                  img.img-responsive(src="img/responsive/web-services-responsive-ecommerce-enterprise-grade-features.png", alt="")
+
+
+
+
+        .col-md-3.col-right.mb-50
+          h3.heading-3.thin-text Quick & Easy Process
+          p.light-text Large selection of payment and shipment methods integrated into standard shopping cart application
+          br
+          h3.heading-3.thin-text Enterprise Grade Features
+          p.light-text Equipped with many out of the box enterprise grade features at no cost
+
+      .row
+        .col-md-12.responsive-web
+          div.resp-learnmore
+            ul
+              li
+                a.hvr-ripple-out(href='/responsive-e-commerce-platform')
+                  img.img-responsive(src="../img/i-icon-white.png")
+              li
+                a.hvr-ripple-out(href='http://app.webriq.com/sites/create' target="_blank")
+                  img.img-responsive(src="../img/plus-icon-white.png")
+
+
+  #projects.portfolio.gray-section
+    .container.mb-50.mt-30
+      .row.text-center
+        .col-md-12.space-auto.text-center.mb-30
+          h1.heading-1 Our Projects
+        .col-xs-3.col-md-2.space-auto
+          span.hr-line
+        .col-md-7.space-auto
+          h4.light-text See our latest projects with our awesome customers
+
+      .row.mt-40
+        .col-lg-12
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(title='', src='../img/projects/anzac_thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/anzac-full.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/anzac-hover-img.png')
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(title='', src='../img/projects/lanarchamber_thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/lanarkshire-full.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/lanark-hover-img.png')
+          //- .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+          //-   .hovereffect
+          //-     img.thumb-proj(title='', src='../img/projects/ats-thumv.jpg', alt='', width='350', height='221')
+          //-     .overlay
+          //-       p
+          //-         a.example-image-link(href='../img/ats-full.jpg', data-lightbox='set') View Website
+          //-       //- img(title='', src='../img/projects/ats-hover.png')
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(title='', src='../img/projects/gascert_thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/gascert-full.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/gas-hover.png')
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(title='', src='../img/projects/guemilli_thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/guemili-full.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/giuemelli-hover.png')
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(title='', src='../img/projects/americas_thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/afs-resize.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/afs-hover.png')
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(title='', src='../img/projects/esports_thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/es-resize.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/esports-hover.png')
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(src='../img/projects/healthport1-thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/healthport.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/healthport1-hover.png')
+          //- .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+          //-   .hovereffect
+          //-     img.thumb-proj(title='', src='../img/projects/sbrchina-thumb.jpg', alt='', width='350', height='221')
+          //-     .overlay
+          //-       p
+          //-         a.example-image-link(href='../img/sbr.jpg', data-lightbox='set') View Website
+          //-       //- img(title='', src='../img/projects/sbrchina-hover.png')
+          //- .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+          //-   .hovereffect
+          //-     img.thumb-proj(title='', src='../img/projects/tymad-thumb.jpg', alt='', width='350', height='221')
+          //-     .overlay
+          //-       p
+          //-         a.example-image-link(href='../img/tymad.jpg', data-lightbox='set') View Website
+          //-       //- span TYMAD BISTRO
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(title='', src='../img/projects/advanced_thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/advance-resize.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/advanced-hover.png')
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12.text-center
+            .hovereffect
+              img.thumb-proj(src='../img/projects/blinds_thumb.jpg', alt='', width='350', height='221')
+              .overlay
+                p
+                  a.example-image-link(href='../img/blind-resize.jpg', data-lightbox='set') View Website
+                //- img(title='', src='../img/projects/blinds-hover.png')
+        //- .col-md-4.hidden-xs.hidden-sm
+        //- .col-md-4.hidden-xs.hidden-sm  
+  //- #blogs.blogs
+  //-   .container
+  //-     .subtitle.mb-40
+  //-           h1.title.mt-0 Blogs
+  //-     .row
+  //-       .col-md-12.articles-section
+  //-         h2.mt-0.title-border Recent Blogs
+  //-         .row
+  //-           each post in posts.orderBy('date', 'desc').slice(0,3)
+  //-             .col-md-4.col-sm-6
+  //-               .home-article-card
+  //-                 .eq-ui-card.doc-margin-bottom
+  //-                   .eq-ui-card-image.waves-effect.waves-block.waves-light
+  //-                       img.dropdown-trigger.img-responsive(data-target=post.cardActivator, data-hover='false', data-below-origin='true', height='180', src=post.banner)
+  //-                   .eq-ui-card-title
+  //-                     h2.eq-ui-card-title-text=post.title
+  //-                       a.btn.dropdown-trigger.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves(data-target=post.cardActivator, data-hover='false', data-below-origin='true')
+  //-                           i.mdi.mdi-dots-vertical.icon
+  //-                   .eq-ui-card-info.article-publish
+  //-                     ul
+  //-                       li By
+  //-                         span.author-name= post.writer
+  //-                       li Posted
+  //-                         span= dateFormat(post.date, 'LL')
+  //-                   .eq-ui-card-supporting-text.eq-ui-card-border.article-body
+  //-                       p!= post.shortdesc
+  //-                   .eq-ui-card-actions.eq-ui-card-border
+  //-                       a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
+
+  //-                   // Dropdown Structure
+  //-                   .eq-ui-dropdown.eq-ui-dropdown-right-bottom(id=post.cardActivator)
+  //-                       .eq-ui-card-title
+  //-                         h2.eq-ui-card-title-text=post.title
+  //-                           a.btn.btn-default.right.eq-ui-btn-flat.eq-ui-btn-fab.eq-ui-btn-menu-fab.eq-ui-waves.eq-ui-dropdown-close.waves-effect
+  //-                               i.mdi.mdi-close.eq-ui-icon
+  //-                       .eq-ui-card-info.article-publish
+  //-                         ul
+  //-                           li By
+  //-                             span.author-name= post.writer
+  //-                           li Posted
+  //-                             span= dateFormat(post.date, 'LL')
+  //-                       .eq-ui-card-supporting-text.eq-ui-card-border
+  //-                           p!= post.shortdesc
+  //-                       .eq-ui-card-actions.eq-ui-card-border
+  //-                           a.btn.btn-primary.btn-lg.eq-ui-waves-light(href=post.permalink) Read More
+  //-         .more-entries.mt-20
+  //-           a(href="/recent-blog") More Entries
+
+
