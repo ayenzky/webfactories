@@ -2,11 +2,13 @@
 title: E-commerce Design Trends that Will Rule in 2017
 shortdesc: "Here’s how I sum up this year: We gave a single phrase explanation to all our design and development fads (cough User-Experience cough) and have now arrived at a point where almost every design looks the same as the one before it."
 cmsUserSlug: ""
-date: 2016-11-09T00:00:00+08:00
+date: 2016-11-08T16:00:00.000Z
 banner: /img/uploads/ecomm_trends_webfac_2017.jpg
 categories: ""
 writer: Lucy Barret
 ---
+
+Here’s how I sum up this year: We gave a single phrase explanation to all our design and development fads (cough User-Experience cough) and have now arrived at a point where almost every design looks the same as the one before it.
 
 Is it bad? Not necessarily. The same design concepts being utilized over and over again for the sake of keeping users happy: That’s good intent and sweet results for business owners, even if it means less conceptual diversity for designers and developers.
 
@@ -81,6 +83,9 @@ You’re free to treat these as hogwash. Or share your own opinions for added en
 <hr>
 **Author Bio:** Lucy Barret, a talented blogger and WordPress developer, currently employed at HireWPGeeks Ltd. She is an expert of
 [converting HTML to WordPress](http://www.hirewpgeeks.com/services/html-to-wordpress/) theme and has a team of skilled developers to assist her. Follow her company on [Facebook](https://www.facebook.com/hirewpgeeks).
+<hr>
+
+Source article: [https://www.webriq.com/posts/e-commerce-design-trends-that-will-rule-in-2017](https://www.webriq.com/posts/e-commerce-design-trends-that-will-rule-in-2017)
 
 <style>
 img {
