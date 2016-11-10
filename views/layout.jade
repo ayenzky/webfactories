@@ -47,4 +47,19 @@ html
 		footer
 			include includes/footer
 
-	#loading
+	if _path == "/index.html"
+		.slider-navigator
+			ul
+				li
+					a.hvr-ripple-out#page-topBtn.active(href="")
+						img(src="img/slider-navigator-home.png", alt="")
+				li
+					a.hvr-ripple-out#trendssecBtn(href="")
+						img(src="img/slider-navigator-trends.png", alt="")
+				li
+					a.hvr-ripple-out#web-servicesBtn(href="")
+						img(src="img/slider-navigator-responsive.png", alt="")
+				li
+					a.hvr-ripple-out#projectsBtn(href="")
+						img(src="img/slider-navigator-projects.png", alt="")
+		#loading

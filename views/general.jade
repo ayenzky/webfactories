@@ -27,15 +27,18 @@ html
   body#page-top.general
 
     header
+      include includes/navbar_general
 
-      include includes/menu_general
 
-    section#general
+    .main-wrapper
+      .header-menu
+        include includes/menu_general
+      section#general
 
-      include includes/header_general
+        include includes/header_general
 
-    div.main-container
-      block content
+      div.main-container
+        block content
 
-    footer
-      include includes/footer
+      footer
+        include includes/footer
