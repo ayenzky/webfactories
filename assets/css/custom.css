@@ -756,12 +756,14 @@ body .botpage-suppport-funct .supp2 a img {
     color: #45d4ff;
 }
 .pricing th .plus-icon {
-    width: 18px;
+    width: 25px;
+    height:25px;
     border: 1px solid #fff;
     display: inline-block;
     font-style: normal;
-    line-height: 16px !important;
-    border-radius: 50%;
+    line-height: 1.7;
+    border-radius: 50px;
+    margin-left:4px;
 }
 .pricing th .plus-icon em:before {
     color: #fff;
@@ -812,14 +814,16 @@ body .botpage-suppport-funct .supp2 a img {
     text-decoration: none !important;
 }
 .pricing td .plus-icon {
-    width: 19px;
+    width: 25px;
+    height:25px;
     border: 1px solid #45d4ff;
     display: inline-block;
     font-style: normal;
     text-align: center;
-    line-height: 16px;
-    border-radius: 50%;
+    line-height: 1.7;
+    border-radius:50px;
 }
+
 .pricing .panel-heading {
     display: block;
     padding: 8px 15px;
@@ -850,7 +854,7 @@ body .botpage-suppport-funct .supp2 a img {
 }
 .pricing td .plus-icon > em:before {
     font-size: 12px;
-    margin-left: 4px;
+
 }
 .pricing .nav-tabs>li.active>a,
 .pricing .nav-tabs>li.active>a:hover,
