@@ -29,31 +29,34 @@ html
     header
 
       if _path === "/pricing.html"
-        include includes/menu_pricing
+        include includes/navbar_pricing
 
       else
 
-        include includes/menu_general
+        include includes/navbar_general
+    .main-wrapper
+      .header-menu
+        include includes/menu_pricing
 
-    section#custom
+      section#custom
 
-      if _path === "/bots-are-the-new-apps.html"
-        include includes/header_bots
+        if _path === "/bots-are-the-new-apps.html"
+          include includes/header_bots
 
-      if _path === "/static-websites.html"
-        include includes/header_static
+        if _path === "/static-websites.html"
+          include includes/header_static
 
-      if _path === "/responsive-e-commerce-platform.html"
-        include includes/header_ecomm
+        if _path === "/responsive-e-commerce-platform.html"
+          include includes/header_ecomm
 
-      if _path === "/partners.html"
-        include includes/header_partners
+        if _path === "/partners.html"
+          include includes/header_partners
 
-      if _path === "/pricing.html"
-        include includes/header_pricing
+        if _path === "/pricing.html"
+          include includes/header_pricing
 
-    div.main-container
-      block content
+      div.main-container
+        block content
 
-    footer
-      include includes/footer
+      footer
+        include includes/footer
