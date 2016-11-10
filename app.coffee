@@ -37,13 +37,8 @@ module.exports =
     collections(folder: 'page', layout: 'post'),
     collections(folder: 'page', layout: 'post'),
     js_pipeline(files: 'assets/js/*.coffee'),
-    css_pipeline(files: 'assets/css/*.styl'),
-    roots_webriq_sitemap (
-      url: "https://webfactories.biz",
-      folder: "public",
-      directory: ["!admin", "!includes"],
-      file: "**/*.html"
-    )
+    css_pipeline(files: 'assets/css/*.styl')
+
   ]
 
   stylus:
@@ -55,6 +50,6 @@ module.exports =
 
   jade:
     pretty: true
-    
+
   server:
     clean_urls: true
