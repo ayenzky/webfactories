@@ -478,6 +478,13 @@ body #myModal .modal-header h4,body #myModal1 .modal-header h4,body #myModal2 .m
     text-shadow: none !important;
     border-radius: 35px;
 }
+
+.header_bg .inquiry #signupfree{
+  border:2px solid #fff;
+  background: none;
+  box-shadow:none;
+  font-weight:500;
+}
 .header_bg .inquiry p {
     font-size: 14px !important;
 }
@@ -510,7 +517,7 @@ body #myModal .modal-header h4,body #myModal1 .modal-header h4,body #myModal2 .m
 /*bot page*/
 
 .subtitle .lead {
-    margin: 15px 10px 60px 10px !important;
+    margin: 15px 10px 50px 10px !important;
     font-size: 24px !important;
     color: #fff;
 }
