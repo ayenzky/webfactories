@@ -41,17 +41,20 @@ body
       .sub-heading-text
           padding-top 10px
 
-  .slider-navigator
-    position absolute
-    top 20%
-    left 15px
-    a
-      display block
-      border 1px solid #ffffff
+.slider-navigator
+  position fixed
+  top 25%
+  left 0px
+  z-index 1
+  ul
+    padding 0px
+  a
+    display block
+    border 1px solid #ffffff
+    border-radius 50px
+    margin 20px
+    &.hvr-ripple-out:before
       border-radius 50px
-      margin 20px
-      &.hvr-ripple-out:before
-        border-radius 50px
 
 
 
@@ -351,6 +354,7 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
 
 
 #trendssec
+  position relative
   .container
     .design-trends
       & > div
@@ -400,6 +404,7 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
 #web-services
   background  #0288d1 url(../img/builtinbg.jpg)no-repeat center top
   background-size cover
+  position relative
   .container
     .row
       .hr-line
@@ -569,9 +574,12 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
         border-radius 5px
         -webkit-border-radius 5px
         -moz-border-radius 5px
-        display inline-block
         margin-right 10px
-        padding 3px 13px
+        display inline-block
+        padding 0px
+        a
+          display block
+          padding 3px 13px
     ul
       padding 0px
       li
@@ -585,11 +593,15 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
         box-shadow none
         -webkit-box-shadow none
         border none
-        li .eq-ui-collapsible-header
-          background-color #f0f0f0
-          height auto
-          line-height 2.5rem
-          font-size 15px
+        li
+          .eq-ui-collapsible-header
+            background-color #f0f0f0
+            height auto
+            line-height 2.5rem
+            font-size 15px
+          .eq-ui-collapsible-body-inner
+            a
+              padding 0px
     .newsletter
       #mc_embed_signup
         #mc-embedded-subscribe
@@ -598,6 +610,33 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
           padding 0px
           text-transform  uppercase
           color #333
+
+
+.head-bg::after,
+#trendssec::before,
+#trendssec::after,
+#web-services::before
+    content  ""
+    position  absolute
+    right  0
+    left  0
+    margin  0 auto
+    background  url(../img/dotte-lines.svg) no-repeat center top
+    width  20px
+    z-index 1
+
+
+body .head-bg::after,
+#trendssec::after
+    bottom  0
+    height  30px
+    background-position  center top
+
+#trendssec::before,
+#web-services::before
+  top  0
+  height  50px
+  background-position  center bottom
 
 @keyframes hvr-ripple-out
 {
