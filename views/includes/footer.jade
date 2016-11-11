@@ -15,63 +15,68 @@ section#contact-us.layout-footer.gray-section
 				h5.med-text.mb-20.mt-20 OUR SALES OFFICES
 					// <p>&nbsp;<em class="fa fa-mobile">&nbsp;</em>+1 203 2856929</p>
 				ul.eq-ui-collapsible(data-collapsible='accordion')
-					li
-						.eq-ui-collapsible-header.active
-							a Webfactories - Australia
-						.eq-ui-collapsible-body
-							.eq-ui-collapsible-body-inner
-								p.name - Tony Watson
-								p - +61 408 766992
-								p -&nbsp;
-									a(href='mailto:tony.watson@webfactories.com.au', target='_blank')  tony.watson@webfactories.com.au
-								p -&nbsp;
-									a(href='skype:tonywatson.webfactories?call')  Call me on Skype
-					li
-						.eq-ui-collapsible-header
-							a Webfactories - UK
-						.eq-ui-collapsible-body
-							.eq-ui-collapsible-body-inner
-								p.name - Bob Wotherspoon
-								p - +44 7711 651633
-								p -&nbsp;
-									a(href='mailto:bob.wotherspoon@webfactories.co.uk', target='_blank')  bob.wotherspoon@webfactories.co.uk
-								p -&nbsp;
-									a(href='skype:bwotherspoon1?call')  Call me on Skype
+					li#wf-au
+						if _path == "webfactories.com.au"
+							.eq-ui-collapsible-header.active
+						else
+							.eq-ui-collapsible-header
+								a Webfactories - Australia
+							.eq-ui-collapsible-body
+								.eq-ui-collapsible-body-inner
+									p.name - Tony Watson
+									p - +61 408 766992
+									p -&nbsp;
+										a(href='mailto:tony.watson@webfactories.com.au', target='_blank')  tony.watson@webfactories.com.au
+									p -&nbsp;
+										a(href='skype:tonywatson.webfactories?call')  Call me on Skype
+					li#wf-uk
+						if _path == "webfactories.co.uk"
+							.eq-ui-collapsible-header.active
+						else
+							.eq-ui-collapsible-header
+								a Webfactories - UK
+							.eq-ui-collapsible-body
+								.eq-ui-collapsible-body-inner
+									p.name - Bob Wotherspoon
+									p - +44 7711 651633
+									p -&nbsp;
+										a(href='mailto:bob.wotherspoon@webfactories.co.uk', target='_blank')  bob.wotherspoon@webfactories.co.uk
+									p -&nbsp;
+										a(href='skype:bwotherspoon1?call')  Call me on Skype
 
-					li
-						.eq-ui-collapsible-header
-							a Webfactories - USA
-						.eq-ui-collapsible-body
-							.eq-ui-collapsible-body-inner
-								//- p.name
-								//-   i.fa.fa-user(aria-hidden='true')
-								//-   | Tony Watson
-								p - +1 203 285 6929
-								p -&nbsp;
-									a(href='mailto:sales@webfactories.us', target='_blank')  sales@webfactories.us
-								p -&nbsp;
-									a(href='skype:webriqmanagement?call')  Call me on Skype
+					li#wf-us
+						if _path == "webfactories.us"
+							.eq-ui-collapsible-header.active
+						else if _path == "webfactories.biz"
+							.eq-ui-collapsible-header.active
+						else
+							.eq-ui-collapsible-header
+								a Webfactories - USA
+							.eq-ui-collapsible-body
+								.eq-ui-collapsible-body-inner
+									//- p.name
+									//-   i.fa.fa-user(aria-hidden='true')
+									//-   | Tony Watson
+									p - +1 203 285 6929
+									p -&nbsp;
+										a(href='mailto:sales@webfactories.us', target='_blank')  sales@webfactories.us
+									p -&nbsp;
+										a(href='skype:webriqmanagement?call')  Call me on Skype
 
-					li
-						.eq-ui-collapsible-header
-							a Webfactories - Africa
-						.eq-ui-collapsible-body
-							.eq-ui-collapsible-body-inner
-								p.name - AJ
-								p - +234 8033 224293
-								p -&nbsp;
-									a(href='mailto:yinka@webfactories-africa.com', target='_blank')  yinka@webfactories-africa.com
-								p -&nbsp;
-									a(href='skype:ajakaiye.yinka?call')  Call me on Skype
-
-			//- .colmd-3.col-sm-6.col-xs-6
-			//- 	.webfactories-services
-			//- 		h5.med-text.mb-20.mt-20 WEB SERVICES
-			//- 		ul
-			//- 			li
-			//- 				a(href="/static-websites") Responsive Websites
-			//- 			li
-			//- 				a(href="https://app.webriq.com/sites/create", target="_blank") Responsive E-commerce Websites
+					li#wf-af
+						if _path == "webfactories.co.uk"
+							.eq-ui-collapsible-header.active
+						else
+							.eq-ui-collapsible-header
+								a Webfactories - Africa
+							.eq-ui-collapsible-body
+								.eq-ui-collapsible-body-inner
+									p.name - AJ
+									p - +234 8033 224293
+									p -&nbsp;
+										a(href='mailto:yinka@webfactories-africa.com', target='_blank')  yinka@webfactories-africa.com
+									p -&nbsp;
+										a(href='skype:ajakaiye.yinka?call')  Call me on Skype
 
 			.col-md-4.col-sm-6.col-xs-6
 				.webfactories_presentation
@@ -87,7 +92,7 @@ section#contact-us.layout-footer.gray-section
 							a.slides_btn(href='http://slides.com/webfactories', target='blank_')
 								img(src='../img/p-3.png', alt='')
 				.newsletter
-					p Subcribes to our newsletter by entering your email below to keep updated to our latest news and information.
+					p Subcribe to our newsletter by entering your email below to keep updated to our latest news and information.
 					#mc_embed_signup
 						form#mc-embedded-subscribe-form.validate.eq-ui-input.validate(action='//webfactories.us3.list-manage.com/subscribe/post?u=8cb5583254702490f52f894ff&id=f81bd08495', method='post', name='mc-embedded-subscribe-form', novalidate='', target='_blank')
 							.eq-ui-form-group.eq-ui-input-field
@@ -97,10 +102,6 @@ section#contact-us.layout-footer.gray-section
 								input(name='b_8cb5583254702490f52f894ff_f81bd08495', type='text', value='')
 							.clear
 								input#mc-embedded-subscribe(name='subscribe', type='submit', value='Subscribe')
-	//- .container
-	//-     p
-	//-     p(style='text-align: right;margin-bottom:12px !important;')
-	//-       a#page-topBtn.top(href='#')  
 
 #copyright
 		.container
@@ -120,7 +121,6 @@ section#contact-us.layout-footer.gray-section
 script(type="text/javascript", src="../js/webriq-bootstrap-material-ui.min.js")
 script(type="text/javascript", src="../js/jasny-bootstrap.min.js")
 script(type="text/javascript", src="../js/lightbox-2.6.min.js")
-//- script(type="text/javascript", src="../js/modernizr.custom.js")
 script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js")
 script(type="text/javascript", src="../js/jquery.expander.min.js")
 script(type="text/javascript", src="../js/cookies.js")

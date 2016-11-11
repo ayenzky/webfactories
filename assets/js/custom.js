@@ -86,37 +86,6 @@ $('.boxes, #web-services .col-left, #web-services .col-right, #web-services-comm
 });
 
 
-// function onReady(callback) {
-//   var intervalID = window.setInterval(checkReady, 1000);
-//   function checkReady() {
-//     if (document.getElementsByTagName('body')[0] !== undefined) {
-//       window.clearInterval(intervalID);
-//       callback.call(this);
-//     }
-//   }
-// }
-
-// function show(id, value) {
-//   document.getElementById(id).style.display = value ? 'block' : 'none';
-// }
-
-// onReady(function () {
-//   show('page', true);
-//   show('loading', false);
-// });
-
-// var inviewsvg = $('.svgdraw').drawsvg({
-//     duration: 1800
-//     callback:function(){
-//       $('.svgdraw').css('opacity', '0');
-//       $('body').find('.hidden').each(function(){
-//         $(this).removeClass('hidden');
-//         $(this).addClass('showed');
-//       })
-//     }
-
-// })
-
 
 
 var b = $('body'),
