@@ -1,6 +1,6 @@
 # Simple redirects from one path to another
 
-http://webfactories.biz/* https://www.webfactories.biz/:splat 301
-http://webfactories.us/* https://www.webfactories.us/:splat 301
-http://webfactories.com.au/* https://www.webfactories.com.au/:splat 301
-http://webfactories.co.uk/* https://www.webfactories.co.uk/:splat 301
+http://webfactories.biz/* https://www.webfactories.biz/ 301
+http://webfactories.us/* https://www.webfactories.us/ 301
+http://webfactories.com.au/* https://www.webfactories.com.au/ 301
+http://webfactories.co.uk/* https://www.webfactories.co.uk/ 301
