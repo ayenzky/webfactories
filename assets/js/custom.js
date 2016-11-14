@@ -58,6 +58,18 @@ $(document).ready(function(){
      $(this).addClass('active');
   })
 
+  if (window.location.href.indexOf("webfactories.co.uk") > -1){
+    $(".header-menu").find("img").attr("src", "img/webfactories-uk-white-logo.png");
+    $("ul.eq-ui-collapsible li#wf-uk").find(".eq-ui-collapsible-header").addClass("active");
+
+  }
+  else if (window.location.href.indexOf("webfactories.com.au") > -1){
+    $(".header-menu").find("img").attr("src", "img/webfactories-au-white-logo.png");
+    $("ul.eq-ui-collapsible li#wf-au").find(".eq-ui-collapsible-header").addClass("active");
+
+  }
+
+
 });
 
 $(window).on('scroll', function() {
