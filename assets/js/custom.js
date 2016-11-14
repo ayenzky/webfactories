@@ -60,14 +60,16 @@ $(document).ready(function(){
 
   if (window.location.href.indexOf("webfactories.co.uk") > -1){
     $(".header-menu").find("img").attr("src", "img/webfactories-uk-white-logo.png");
-    $("ul.eq-ui-collapsible li#wf-uk").find(".eq-ui-collapsible-header").addClass("active");
+    $("ul.eq-ui-collapsible li#wf-uk").find(".eq-ui-collapsible-body").css("display", "block").parents().addClass("active");
 
   }
   else if (window.location.href.indexOf("webfactories.com.au") > -1){
     $(".header-menu").find("img").attr("src", "img/webfactories-au-white-logo.png");
-    $("ul.eq-ui-collapsible li#wf-au").find(".eq-ui-collapsible-header").addClass("active");
+    $("ul.eq-ui-collapsible li#wf-au").find(".eq-ui-collapsible-body").css("display", "block").parents().addClass("active");
 
   }
+  else
+    $("ul.eq-ui-collapsible li#wf-us").find(".eq-ui-collapsible-body").css("display", "block").parents().addClass("active");
 
 
 });
