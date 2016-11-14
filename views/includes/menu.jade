@@ -2,12 +2,7 @@
   .row
     .col-md-12
       a(href='/')
-        if _path == "webfactories.co.uk"
-          img(src="img/webfactories-uk-white-logo.png")
-        else if _path == "webfactories.com.au"
-          img(src="img/webfactories-au-white-logo.png")
-        else
-          img(src=records.site.sitedata[0].logo)
+        img(src=records.site.sitedata[0].logo)
 
       .pull-right.top_menu
           svg#svg_menu.drawsvg_line.drawsvg(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='59px', height='59px', viewbox='0 0 59 59', enable-background='new 0 0 59 59', xml:space='preserve')

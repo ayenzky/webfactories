@@ -69,7 +69,7 @@ $(document).ready(function(){
 
   }
   else
-    $("ul.eq-ui-collapsible li#wf-us").find(".eq-ui-collapsible-body").css("display", "block").parents().addClass("active");
+    $("ul.eq-ui-collapsible li#wf-au").find(".eq-ui-collapsible-body").css("display", "block").parents().addClass("active");
 
 
 });
