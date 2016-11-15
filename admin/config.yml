@@ -56,6 +56,7 @@ collections: # A list of collections the CMS should be able to edit
             name: "filemanager"
             widget: "list"
             fields:
+              - {label: "Name", name: "name", widget: "string"}
               - {label: "Filename", name: "file", widget: "image", media_folder: "assets/files"}
   - name: "pages" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Page"  # Used in the UI, ie.: "New Post"
