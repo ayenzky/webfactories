@@ -5,8 +5,8 @@ backend:
 production:
   backend:
     name: github-api
-    repo: webriq/webriqpage-webfactories # Updated repo details ### Before: WebriQpages/webriqpage-webfactories # Path to your Github repository
-    branch: master # Branch to update (master by default)
+    repo: ayenzky/webfactories # Updated repo details ### Before: WebriQpages/webriqpage-webfactories # Path to your Github repository
+    branch: add_file_manager_admin # Branch to update (master by default)
 
 media_folder: "assets/img/uploads" # Folder where user uploaded files should go
 public_folder: "assets"
