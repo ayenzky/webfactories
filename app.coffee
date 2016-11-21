@@ -38,8 +38,13 @@ module.exports =
     collections(folder: 'page', layout: 'post'),
     collections(folder: 'page', layout: 'post'),
     js_pipeline(files: 'assets/js/*.coffee'),
-    css_pipeline(files: 'assets/css/*.styl')
-
+    css_pipeline(files: 'assets/css/*.styl'),
+    roots_webriq_sitemap (
+      url: "https://www.webfactories.biz",
+      folder: "public",
+      directory: ["!admin", "!layouts"],
+      file: "**/*.html"
+    )
   ]
 
   stylus:
